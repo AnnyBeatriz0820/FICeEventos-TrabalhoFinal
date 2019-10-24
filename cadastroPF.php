@@ -44,7 +44,7 @@
   <br/>
   <br/>
   Estado: <select name="Estado" >
-    <option value="ac">Acre</option>
+    <option value="Ac">Acre</option>
     <option value="al">Alagoas</option>
     <option value="am">Amazonas</option>
     <option value="ap">Amapá</option>
