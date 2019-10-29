@@ -7,18 +7,14 @@
         <fieldset>
         <h3 STYLE="text-align:center;">DIRETORIA DE ENSINO - DIREN <h3 STYLE="text-align:center;">CONTROLADORIA DE CONTROLE ACADÊMICO-CCA</h3>
        <h1> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s1600/ifce.jpg"> &nbsp &nbsp &nbsp &nbsp FICHA DE PRÉ-MATRÍCULA </h1>
-        <h3> Campus Acopiara </h3></h3><h3 STYLE="text-align:center;">Obs. Preencha todos os campos. </fieldset>
+        <h3> Campus Acopiara </h3><h3 STYLE="text-align:center;">Obs. Preencha todos os campos. </fieldset></h3>
           <div STYLE="text-align:right;">
         <h3 STYLE="text-align:right;"> <IMG SRC="https://encrypted-tbn0.gstatic.com/mages?q=tbn:ANd9GcRIjyJH6qeNcBRzhdMPye2n8jCU9bfmx5p-OCeRnzosqev1Nl1o&s"> <input type="file" name="foto">  </h3>
            </div>
      <br/>
       <div>
-
-
 <form method="post" id=C.Estudante action="cadastroEstudante.php">
-
    <!--Curso: <select name="Curso" >
-
     <option value="Ingles">Ingles</option>
     <option value="Libras">Libras</option>
     <option value="Matematica">Matematica</option>
@@ -37,18 +33,18 @@ CURSO/MODALIDADE:
   </fieldset>
   FORMA DE INGRESSO: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp MODALIDADE DE CONCORRÊNCIA: 
    <fieldset>
-  <input type="text" name="FORMA" />&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> NA
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> AC
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L1
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L2
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L3
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L4
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> LD
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L10
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L12
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> L14
-  </fieldset>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <INPUT TYPE="checkbox" NAME="NA" VALUE="NA">NA 
+  <INPUT TYPE="checkbox" NAME="AC" VALUE="AC">AC
+  <INPUT TYPE="checkbox" NAME="L1" VALUE="L1">L1
+  <INPUT TYPE="checkbox" NAME="L2" VALUE="L2">L2
+  <INPUT TYPE="checkbox" NAME="L3" VALUE="L3">L3
+  <INPUT TYPE="checkbox" NAME="L4" VALUE="L4">L4
+  <INPUT TYPE="checkbox" NAME="LD" VALUE="LD">LD
+  <INPUT TYPE="checkbox" NAME="L10" VALUE="L10">L10
+  <INPUT TYPE="checkbox" NAME="L12" VALUE="L12">L12
+  <INPUT TYPE="checkbox" NAME="L14" VALUE="L14">L14
+    </fieldset>
   DADOS PESSOAIS
    <br/>
   NOME: 
@@ -118,7 +114,7 @@ CURSO/MODALIDADE:
   </fieldset>
   <fieldset>
   Necessidades Especiais: 
-  <input type="checkbox">Física 
+  <input type="checkbox" name="gender" value="Física">Física 
   <input type="checkbox"> Visual
   <input type="checkbox"> Auditiva
   <input type="checkbox"> Mental
@@ -193,8 +189,8 @@ CURSO/MODALIDADE:
    Estado Civil dos Pais 
    <fieldset>
    <input type="text" name="E.C_Pais" /> &nbsp &nbsp 
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> Pai Falecido 
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> Mãe Falecida
+  <INPUT TYPE="checkbox" NAME="ObtoPai" VALUE="ObtoPai"> Pai Falecido 
+  <INPUT TYPE="checkbox" NAME="ObtoMae" VALUE="ObtoMae"> Mãe Falecida
    </fieldset>
    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Complemento &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Bairro
    <fieldset>
@@ -219,24 +215,22 @@ CURSO/MODALIDADE:
       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº de pessoas na família  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp&nbsp &nbsp Com quem reside
   <br/>Renda Familiar Percapita
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-
   <input type="text" name="pessoas" /> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
   <input type="text" name="quem_reside" />
   <br/>
-   <textarea name="message" style="width: 20px; height: 25px;"> </textarea> NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> 1 SM à RPC 1,5 SM &nbsp &nbsp &nbsp &nbsp 
-   <textarea name="message" style="width: 20px; height: 25px;"> </textarea> 2,5 SM à RPC 3,5 SM
+   <INPUT TYPE="checkbox" NAME="Salario" VALUE="S"> NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S2"> 1 SM à RPC 1,5 SM &nbsp &nbsp &nbsp &nbsp 
+   <INPUT TYPE="checkbox" NAME="Salario" VALUE="S4"> 2,5 SM à RPC 3,5 SM
    &nbsp &nbsp &nbsp &nbsp *SM = Salário Mínimo 
   <br/>
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> 0,5 SM à RPC/1 SM &nbsp 
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> 1,5 SM > RPC 2,5 SM &nbsp &nbsp 
-  <textarea name="message" style="width: 20px; height: 25px;"> </textarea> RPC = 3 SM
- &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp *RPC = Renda Per Capita 
+  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S1">  0,5 SM à RPC/1 SM &nbsp 
+  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S3"> 1,5 SM > RPC 2,5 SM &nbsp &nbsp &nbsp
+  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S5"> RPC = 3 SM
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  *RPC = Renda Per Capita 
   
   </fieldset>
   <br/>
    <br/>
-
 &nbsp &nbsp &nbsp &nbsp ________________/__________/_________ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp___________________________________________________&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  _________________________________________________
   <br/>
     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Assinatura do Aluno &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Assinatura do Responsável
@@ -266,7 +260,6 @@ CURSO/MODALIDADE:
 <br/>
  <br/>
  
-
      <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <script src="./bootstrap/js/./bootstrap.min.js"></script>
   <script src="https:/ajax.googleaois.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
