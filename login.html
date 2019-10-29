@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
+  
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
@@ -35,6 +37,7 @@ button:hover {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
+
 }
 
 /* Center the image and position the close button */
@@ -82,7 +85,7 @@ span.psw {
   top: 0;
   color: #000;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: bold; 
 }
 
 .close:hover,
@@ -100,6 +103,12 @@ span.psw {
   from {-webkit-transform: scale(0)} 
   to {-webkit-transform: scale(1)}
 }
+
+.cadasbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: darkorange;
+}
   
 @keyframes animatezoom {
   from {transform: scale(0)} 
@@ -115,24 +124,28 @@ span.psw {
      width: 100%;
   }
 }
+
 </style>
 </head>
-<body>
+<body bgcolor="fefefe">
 
-<h2>Sistema de Eventos e FIC</h2>
 
+<h2><center>Sistema de Eventos e FIC</center></h2>
+
+<center>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+</center>
 
 <div id="id01" class="modal">
   
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      
     </div>
 
     <div class="container">
-      <label for="uname"><b>E-mail</b></label>
+      <label for="uname"><b>E-mail / CPF</b></label>
       <input type="text" placeholder="E-mail" name="uname" required>
 
       <label for="psw"><b>Senha</b></label>
@@ -146,7 +159,9 @@ span.psw {
 
     <div class="container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-      <span class="psw">Esqueceu a <a href="#">Senha?</a></span>
+      <span class="psw">Esqueceu a <a href="esqueceusenha.html">Senha?</a></span>
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cadasbtn"><a href="cadastroevento.html"> Novo Cadastro </button>
     </div>
   </form>
 </div>
