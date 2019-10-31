@@ -1,7 +1,7 @@
 <html>
 <body>
   </div>
-       <h1> <center> Inscrições para Evento </center> </h1>
+       <h1> <center> Inscrições para Workshop </center> </h1>
      
 
      

@@ -1,7 +1,7 @@
 <html>
 <body>
   </div>
-       <h1> <center> Inscrições para Mesa Redonda </center> </h1>
+       <h1> <center> Inscrições para Workshop </center> </h1>
      
 
      
@@ -28,6 +28,13 @@
     <div class="Estado">
       <label for="validationServer04">Estado:</label>
       <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Estado" required>
+      <div class="invalid-feedback">
+      </div>
+    </div>
+
+    <div class="Evento">
+      <label for="validationServer04">Nome do Work:</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="Evento" required>
       <div class="invalid-feedback">
       </div>
     </div>
