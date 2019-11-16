@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang='en'>
+  
+ <?php include 'template/cabecalho.php' ?>
+ <?php include 'template/menu-lateral.php' ?>
+
+    <!-- Content Wrapper -->
+    <div id='content-wrapper' class='d-flex flex-column'>
+
+      <!-- Main Content -->
+      <div id='content'>
+
+      <?php include 'template/menu-superior.php' ?>       
+
+        <!-- Begin Page Content -->
+        <div class='container-fluid'>
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Palestra</h1>
+            
+          </div>
+
+          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+ <div class='container'>
+          <form action="index.php" method="post">
+    <fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome">  Nome do Palestrante </label>
+                <input type="text" id="nome" name="nome" style="width: 10em" value="">
+
+            </div>
+        </br>
+                    </fieldset>
+       
+           <fieldset> 
+        <div class="campo">
+            <label for="hora"> Hora da Palestra</label>
+            <input type="text" id="hora" name="hora" style="width: 20em" value="">
+        </div>
+        <div class="campo">
+            <label for="tema"> Tema da Palestra</label>
+            <input type="text" id="tema" name="tema" style="width: 10em" value="">
+        </div>
+</fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="carga">Carga Horária</label>
+                <input type="number" id="carga" name="carga" style="width: 10em" value="">
+            </div>
+        </fieldset>
+        <button type="submit" name="submit">Enviar</button>
+    </fieldset>
+</form>
+</div>
+
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+          </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <?php include 'template/rodape.php' ?>
+    
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class='scroll-to-top rounded' href='#page-top'>
+    <i class='fas fa-angle-up'></i>
+  </a>
+
+  <?php include 'template/logout.php' ?>
+
+  <?php include 'template/imports.php' ?>
+
+</body>
+
+</html>
