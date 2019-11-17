@@ -1,14 +1,29 @@
-<html>
-<body>
-  </div>
-       <h1> <center> Inscrições para Workshop </center> </h1>
-     
+<!DOCTYPE html>
+<html lang='en'>
+  
+ <?php include 'template/cabecalho.php' ?>
+ <?php include 'template/menu-lateral.php' ?>
 
-     
-      <div>
-<br/>
-<form method="post" action="Iniciação-Cientifica.php">
-   <form>
+    <!-- Content Wrapper -->
+    <div id='content-wrapper' class='d-flex flex-column'>
+
+      <!-- Main Content -->
+      <div id='content'>
+
+      <?php include 'template/menu-superior.php' ?>       
+
+        <!-- Begin Page Content -->
+        <div class='container-fluid'>
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Workshop</h1>
+            
+          </div>
+
+          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+          <div class='container'>
+          <form method="post" action="index.php">
   <div class="form-row">
     <div class="Nome">
       <label for="validationServer01">Nome Completo:</label>
@@ -57,11 +72,37 @@
   <button class="btn btn-primary" type="submit">Enviar Inscrição</button>
 </form>
   
-  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-  <script src="./bootstrap/js/./bootstrap.min.js"></script>
-  <script src="https:/ajax.googleaois.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- 
+</div>
 
-  </form>
+
+</div></div></div></div>
+
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+          </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <?php include 'template/rodape.php' ?>
+    
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class='scroll-to-top rounded' href='#page-top'>
+    <i class='fas fa-angle-up'></i>
+  </a>
+
+  <?php include 'template/logout.php' ?>
+
+  <?php include 'template/imports.php' ?>
+
 </body>
+
 </html>
