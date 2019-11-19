@@ -24,7 +24,7 @@ h11 {
 <body>
 
 <form class="form-horizontal">
-	<!-- Text input-->
+  <!-- Text input-->
 <div>
         <fieldset>
         
@@ -34,10 +34,10 @@ h11 {
         <h4> Campus Acopiara </h4> </fieldset>
            </div>
            </div>
-	<!-- Text input-->
+  <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO EM PALESTRA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;">INSCRIÇÃO EM PALESTRA</h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -48,7 +48,7 @@ h11 {
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome da Palestra <h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Tema da Palestra <h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Palestra" name="Palestra" placeholder="" class="form-control input-md" required="" type="text">
   </div>

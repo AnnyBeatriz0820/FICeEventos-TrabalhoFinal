@@ -53,7 +53,7 @@ echo "
             <a class='collapse-item' href='palestra.php'>Palestra</a>
             <a class='collapse-item' href='seminario.php'>Seminário</a>
             <a class='collapse-item' href='workshop.php'>Workshop</a>
-            <a class='collapse-item' href='workshop.php'>Workshop</a>
+            
           </div>
         </div>
       </li>
