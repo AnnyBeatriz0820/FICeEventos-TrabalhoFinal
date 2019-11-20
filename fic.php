@@ -17,13 +17,40 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">FIC</h1>
+            <h1 class="h3 mb-0 text-gray-800"></h1>
             
           </div>
+          <style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-          <form method="post" id=C.Estudante action="index.php">
+         <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
+ <fieldset>
+ <body div class="panel-body" STYLE="background-color:beige";>
+<div>
+  <head><meta charset="UTF-8"></head>
+      <div>
+        <fieldset STYLE="background-color:white";>
+        <h4 STYLE="text-align:center;">DIRETORIA DE ENSINO - DIREN <h4 STYLE="text-align:center;">CONTROLADORIA DE CONTROLE ACADÊMICO-CCA</h4>
+       <h1> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"> &nbsp &nbsp &nbsp &nbsp FICHA DE PRÉ-MATRÍCULA </h1>
+        <h3> Campus Acopiara </h3><h3 STYLE="text-align:center;">Obs. Preencha todos os campos. </fieldset></h3>
+          <div STYLE="text-align:right;">
+        <h6 STYLE="text-align:right;"> <IMG SRC="https://encrypted-tbn0.gstatic.com/mages?q=tbn:ANd9GcRIjyJH6qeNcBRzhdMPye2n8jCU9bfmx5p-OCeRnzosqev1Nl1o&s"> <input type="file" name="foto">  </h6>
+           </div>
+     <br/>
+      <div>
+<form method="post" id=C.Estudante action="cadastroEstudante.php">
    <!--Curso: <select name="Curso" >
     <option value="Ingles">Ingles</option>
     <option value="Libras">Libras</option>
@@ -44,17 +71,17 @@ CURSO/MODALIDADE:
   FORMA DE INGRESSO: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp MODALIDADE DE CONCORRÊNCIA: 
    <fieldset>
     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <INPUT TYPE="checkbox" NAME="NA" VALUE="NA">NA 
-  <INPUT TYPE="checkbox" NAME="AC" VALUE="AC">AC
-  <INPUT TYPE="checkbox" NAME="L1" VALUE="L1">L1
-  <INPUT TYPE="checkbox" NAME="L2" VALUE="L2">L2
-  <INPUT TYPE="checkbox" NAME="L3" VALUE="L3">L3
-  <INPUT TYPE="checkbox" NAME="L4" VALUE="L4">L4
-  <INPUT TYPE="checkbox" NAME="LD" VALUE="LD">LD
-  <INPUT TYPE="checkbox" NAME="L10" VALUE="L10">L10
-  <INPUT TYPE="checkbox" NAME="L12" VALUE="L12">L12
-  <INPUT TYPE="checkbox" NAME="L14" VALUE="L14">L14
-    </fieldset>
+  <INPUT TYPE="radio" NAME="NA" VALUE="NA">NA 
+  <INPUT TYPE="radio" NAME="AC" VALUE="AC">AC
+  <INPUT TYPE="radio" NAME="L1" VALUE="L1">L1
+  <INPUT TYPE="radio" NAME="L2" VALUE="L2">L2
+  <INPUT TYPE="radio" NAME="L3" VALUE="L3">L3
+  <INPUT TYPE="radio" NAME="L4" VALUE="L4">L4
+  <INPUT TYPE="radio" NAME="LD" VALUE="LD">LD
+  <INPUT TYPE="radio" NAME="L10" VALUE="L10">L10
+  <INPUT TYPE="radio" NAME="L12" VALUE="L12">L12
+  <INPUT TYPE="radio" NAME="L14" VALUE="L14">L14
+  </fieldset>
   DADOS PESSOAIS
    <br/>
   NOME: 
@@ -119,19 +146,19 @@ CURSO/MODALIDADE:
    Nome do curso de graduação &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp tipo de escola de origem
   <fieldset>
   <input type="text" name="Ingresso" />&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-  <input type="checkbox"> Publica 
-  <input type="checkbox"> </textarea> Privada
+  <input type="radio"> Publica 
+  <input type="radio"> </textarea> Privada
   </fieldset>
   <fieldset>
   Necessidades Especiais: 
-  <input type="checkbox" name="gender" value="Física">Física 
-  <input type="checkbox"> Visual
-  <input type="checkbox"> Auditiva
-  <input type="checkbox"> Mental
-  <input type="checkbox"> Multipla
-  <input type="checkbox"> Supertição
-  <input type="checkbox"> Condutas tipicas
- <input type="checkbox"> Outras
+  <input type="radio" name="gender" value="Física">Física 
+  <input type="radio"> Visual
+  <input type="radio"> Auditiva
+  <input type="radio"> Mental
+  <input type="radio"> Multipla
+  <input type="radio"> Supertição
+  <input type="radio"> Condutas tipicas
+ <input type="radio"> Outras
   </fieldset>
    Documentação &nbsp &nbsp &nbsp &nbsp CPF &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp nº Cns 
    <fieldset>
@@ -199,8 +226,8 @@ CURSO/MODALIDADE:
    Estado Civil dos Pais 
    <fieldset>
    <input type="text" name="E.C_Pais" /> &nbsp &nbsp 
-  <INPUT TYPE="checkbox" NAME="ObtoPai" VALUE="ObtoPai"> Pai Falecido 
-  <INPUT TYPE="checkbox" NAME="ObtoMae" VALUE="ObtoMae"> Mãe Falecida
+  <INPUT TYPE="radio" NAME="ObtoPai" VALUE="Pai"> Pai Falecido 
+  <INPUT TYPE="radio" NAME="ObtoMae" VALUE="Mae"> Mãe Falecida
    </fieldset>
    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Complemento &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Bairro
    <fieldset>
@@ -228,14 +255,14 @@ CURSO/MODALIDADE:
   <input type="text" name="pessoas" /> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
   <input type="text" name="quem_reside" />
   <br/>
-   <INPUT TYPE="checkbox" NAME="Salario" VALUE="S"> NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S2"> 1 SM à RPC 1,5 SM &nbsp &nbsp &nbsp &nbsp 
-   <INPUT TYPE="checkbox" NAME="Salario" VALUE="S4"> 2,5 SM à RPC 3,5 SM
+   <INPUT TYPE="radio" NAME="Salario" VALUE="S"> NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <INPUT TYPE="radio" NAME="Salario" VALUE="S2"> 1 SM à RPC 1,5 SM &nbsp &nbsp &nbsp &nbsp 
+   <INPUT TYPE="radio" NAME="Salario" VALUE="S4"> 2,5 SM à RPC 3,5 SM
    &nbsp &nbsp &nbsp &nbsp *SM = Salário Mínimo 
   <br/>
-  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S1">  0,5 SM à RPC/1 SM &nbsp 
-  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S3"> 1,5 SM > RPC 2,5 SM &nbsp &nbsp &nbsp
-  <INPUT TYPE="checkbox" NAME="Salario" VALUE="S5"> RPC = 3 SM
+  <INPUT TYPE="radio" NAME="Salario" VALUE="S1">  0,5 SM à RPC/1 SM &nbsp 
+  <INPUT TYPE="radio" NAME="Salario" VALUE="S3"> 1,5 SM > RPC 2,5 SM &nbsp &nbsp &nbsp
+  <INPUT TYPE="radio" NAME="Salario" VALUE="S5"> RPC = 3 SM
  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  *RPC = Renda Per Capita 
   
   </fieldset>
@@ -247,34 +274,27 @@ CURSO/MODALIDADE:
    <br/>
    <br/>
    <br/>
-   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   <fieldset>
-    <br/>
-    <br/>
-  <div> 
-       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  DIRETORIA DE ENSINO - DIREN &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SIMESTRE _______________ ANO __________
-<br/>
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp CONTROLADORIA DE CONTROLE ACADÊMICO-CCA
-       <h3 STYLE=";"><IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s1600/ifce.jpg">  &nbsp &nbsp &nbsp &nbsp COMPROVANTE DE PRÉ-MATRÍCULA &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  _____________/____________/___________
-        
-       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <h3> Campus Acopiara </h3>
-<br/>
-    <br/>
-      NOME DO ALUNO: _________________________________________________&nbsp &nbsp &nbsp ASSINATURA DO RESPONSÁVEL (CCA/IFCE)  __________________________________________
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   <fieldset STYLE="background-color:white";><FONT SIZE="2">
+     <div> 
+      <br/>
+       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp DIRETORIA DE ENSINO - DIREN   &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  SIMESTRE _______________________ ANO __________________
+      &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp CONTROLADORIA DE CONTROLE ACADÊMICO-CCA 
+      <br/>
+       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s200/ifce.jpg"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <h3> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Campus Acopiara  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <h1 STYLE="text-align:center;">COMPROVANTE DE PRÉ-MATRÍCULA </h1>  <h4 STYLE="text-align:right;">______________/_________________/________________ </4>       
+       </h3>&nbsp &nbsp &nbsp &nbsp
+      NOME DO ALUNO: ___________________________________________________________________&nbsp &nbsp &nbsp ASSINATURA DO RESPONSÁVEL (CCA/IFCE)  ________________________________________________________
+     </div>
+     <div>
   <br/>
-   
-           </div>
-     <br/>
-      <div>
-   
-<br/>
- <br/>
- 
-     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-  <script src="./bootstrap/js/./bootstrap.min.js"></script>
-  <script src="https:/ajax.googleaois.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </fieldset>
-  <input type="submit" value="CONFIRMAR INSCRIÇÃO" />
+  <div class="form-group">
+  <label class="col-md-2 control-label" for="Inscrever"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+  </div>
+</div>
   </form>
 </div>       
   <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
