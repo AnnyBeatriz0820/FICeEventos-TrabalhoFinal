@@ -65,7 +65,7 @@ echo "
         <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
           <div class='bg-white py-2 collapse-inner rounded'>
             <h6 class='collapse-header'>Eventos Disponíveis:</h6>
-            <a class='collapse-item' href='congresso.php'>Congresso</a>
+            <a class='collapse-item' href='AdmCongresso.php'>Congresso</a>
             <a class='collapse-item' href='curso.php'>Curso</a>
             <a class='collapse-item' href='debate.php'>Debate</a>
             <a class='collapse-item' href='eventos.php'>Evento</a>
@@ -74,8 +74,8 @@ echo "
             <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>
             <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>
             <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>
-            <a class='collapse-item' href='oficina.php'>Oficina</a>
-            <a class='collapse-item' href='palestra.php'>Palestra</a>
+            <a class='collapse-item' href='AdmOficina.php'>Oficina</a>
+            <a class='collapse-item' href='AdmPalestra.php'>Palestra</a>
             <a class='collapse-item' href='seminario.php'>Seminário</a>
             <a class='collapse-item' href='workshop.php'>Workshop</a>
             

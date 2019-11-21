@@ -49,7 +49,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE A OFICINA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE O CONGRESSO</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -61,19 +61,19 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Professor da Oficina<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Congresso<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de Vagas<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidades de pessoas estimadas<h11>*</h11></label>  
   <div class="col-md-1">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   <fieldset>
-  <label class="col-md-1 control-label" for="Nome">Data da Oficina<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data o Congresso<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
@@ -124,7 +124,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação o Congresso<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -144,7 +144,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre o Congresso<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -193,7 +193,7 @@
  
   </div>
 
-  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Oferecer a Oficina <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Congresso <h11>*</h11></label>
     <div class="col-md-3">
     <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Campus Acaraú</option>
@@ -234,28 +234,7 @@
     </select>
   </div>
 
-  <div class="form-group">
-    
-  <label class="col-md-2 control-label" for="selectbasic">Escolher Tema<h11>*</h11></label>
-  
-  <div class="col-md-3">
-    <select required id="Curso" name="Curso" class="form-control">
-      <option value="CongressoEst">Congresso  Estudantil</option>
-      <option value="CongressoBAI">Congresso Brasileiro de Avaliação de Impacto</option>
-      <option value="CongressoCGE">Congresso Cearense de Gestão do Esporte</option>
-      <option value="CongressoC">Congresso da Ciência</option>
-      <option value="CongressoS">Congresso da Saúde</option>
-      <option value="CongressoA">Congresso das Águas</option>
-      <option value="CongressoEd">Congresso de Educação</option>
-      <option value="CongressoTI">Congresso de Técnicos em Informática</option>
-      <option value="CongressoZ">Congresso de Zootecnia</option>
-      <option value="CongressoE">Congresso do Esporte</option>
-      <option value="CongressoIACN">Congresso Internacional Artefatos da Cultura Negra</option>
-      <option value="CongressoSM">Congresso Internacional de Saúde Mental</option>
-      
-    </select>
-  </div>
-  </div>
+  <h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->

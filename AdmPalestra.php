@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -19,10 +18,8 @@
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800"></h1>
-            
-          </div>
-          <style>
-
+        </div>
+         <style>
     h11 {
       color:red;
   }
@@ -35,9 +32,7 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-          <div class='container'>
-          <form action="index.php" method="post">
-    <div>
+        <div>
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -49,62 +44,77 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO EM OFICINA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE A PALESTRA</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
 <div class="col-md-11 control-label">
+  <fieldset>
         <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
 </div>
 </div>
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome Completo do Aluno <h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Palestrante<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">CPF <h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidades de Vagas<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
+  <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   
-  <label class="col-md-1 control-label" for="Nome">Nascimento<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data da Palestra<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
+
 <!-- Multiple Radios (inline) -->
-  <label class="col-md-1 control-label" for="radios">Sexo <h11>*</h11></label>
+  <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
   <div class="col-md-4"> 
     <label required="" class="radio-inline" for="radios-0" >
-      <input name="sexo" id="sexo" value="feminino" type="radio" required>
-      Feminino
+      <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
+      Crianças
     </label> 
     <label class="radio-inline" for="radios-1">
-      <input name="sexo" id="sexo" value="masculino" type="radio">
-      Masculino
+      <input name="Adolescentes" id="Adolescentes" value="Crianças" type="radio">
+      Adolescentes
     </label>
      <label class="radio-inline" for="radios-1">
-      <input name="sexo" id="sexo" value="masculino" type="radio">
-      Outros
+      <input name="Jovens" id="Jovens" value="masculino" type="radio">
+      Jovens
+    </label>
+  <label class="radio-inline" for="radios-1">
+      <input name="Idosos" id="sexo" value="Idosos" type="radio">
+     Idosos
     </label>
   </div>
+<label class="radio-inline" for="radios-1">
+      <input name="Outros" id="sexo" value="Outros" type="radio">
+    Outros
+    </label>
+    <div class="col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon">Discrição de Outros<h11>*</h11></span>
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    </div>
+  <!-- Prepended text-->
 </div>
-<!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone <h11>*</h11></label>
-  <div class="col-md-3">
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Palestra<h11>*</h11></label>
+  <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" required="" type="text" maxlength="13" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
     </div>
   </div>
-  
-    <label class="col-md-1 control-label" for="prependedtext">Telefone</label>
+      <label class="col-md-1 control-label" for="prependedtext">Telefone do Campus </label>
      <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -113,9 +123,10 @@
     </div>
   </div>
  </div> 
+  
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a palestra<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -128,10 +139,10 @@
 <!-- Prepended text-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
+  <label class="col-md-2 control-label" for="prependedtext">Programação</label>
       <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Rua<h11>*</h11></span>
+      <span class="input-group-addon">Tema<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -141,8 +152,8 @@
   <div>
       <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Cidade<h11>*</h11></span>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   </div>
@@ -151,70 +162,64 @@
   <div>
       <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Bairro<h11>*</h11></span>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+      <span class="input-group-addon">Local<h11>*</h11></span>
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   </div>
    
    </div>
   </div>
-  <label class="col-md-2 control-label" for="selectbasic">Estado <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Oferecer a Palestra <h11>*</h11></label>
   
   <div class="col-md-3">
-    <select required id="escolaridade" name="escolaridade" class="form-control">
-     <option value="ac">Acre</option>
-    <option value="al">Alagoas</option>
-    <option value="am">Amazonas</option>
-    <option value="ap">Amapá</option>
-    <option value="ba">Bahia</option>
-    <option value="ce">Ceará</option>
-    <option value="df">Distrito Federal</option>
-    <option value="es">Espírito Santo</option>
-    <option value="go">Goiás</option>
-    <option value="ma">Maranhão</option>
-    <option value="mt">Mato Grosso</option>
-    <option value="ms">Mato Grosso do Sul</option>
-    <option value="mg">Minas Gerais</option>
-    <option value="pa">Pará</option>
-    <option value="pb">Paraíba</option>
-    <option value="pr">Paraná</option>
-    <option value="pe">Pernambuco</option>
-    <option value="pi">Piauí</option>
-    <option value="rj">Rio de Janeiro</option>
-    <option value="rn">Rio Grande do Norte</option>
-    <option value="ro">Rondônia</option>
-    <option value="rs">Rio Grande do Sul</option>
-    <option value="rr">Roraima</option>
-    <option value="sc">Santa Catarina</option>
-    <option value="se">Sergipe</option>
-    <option value="sp">São Paulo</option>
-    <option value="to">Tocantins</option>
+    <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
+     <option value="Acaraú">Campus Acaraú</option>
+    <option value="Acopiara">Campus Acopiara</option>
+    <option value="Aracati">Campus Aracati </option>
+    <option value="Baturité">Campus Baturité</option>
+    <option value="Boa Viagem">Campus Boa Viagem</option>
+    <option value="Camocim">Campus Camocim</option>
+    <option value="Canindé">Campus Canindé</option>
+    <option value="Caucaia">Campus Caucaia</option>
+    <option value="Cedro">Campus Cedro</option>
+    <option value="Crateús">Campus Crateús</option>
+    <option value="Crato">Campus Crato</option>
+    <option value="Fortaleza">Campus Fortaleza</option>
+    <option value="Guaramiranga">Campus Guaramiranga</option>
+    <option value="Horizonte">Campus Horizonte</option>
+    <option value="Iguatu">Campus Iguatu </option>
+    <option value="Itapipoca">Campus Itapipoca</option>
+    <option value="Jaguaribe">Campus Jaguaribe</option>
+    <option value="Jaguaruana">Campus Jaguaruana</option>
+    <option value="JN">Campus Juazeiro do Norte</option>
+    <option value="LN">Campus Limoeiro do Norte</option>
+    <option value="Maracanaú">Campus Maracanaú</option>
+    <option value="Maranguape">Campus Maranguape</option>
+    <option value="Mombaça">Campus Mombaça</option>
+    <option value="MV">Campus Morada Nova</option>
+    <option value="Paracuru">Campus Paracuru</option>
+    <option value="Pecém">Campus Pecém</option>
+    <option value="PIF">Campus Polo de Inovação Fortaleza</option>
+     <option value="Quixadá">Campus Quixadá </option>
+      <option value="Reitoria">Campus Reitoria</option>
+       <option value="Sobral">Campus Sobral</option>
+        <option value="TN">Campus Tabuleiro do Norte</option>
+         <option value="Tauá">Campus Tauá</option>
+          <option value="Tianguá">Campus Tianguá</option>
+           <option value="Ubajara">Campus Ubajara </option>
+            <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-<div class="form-group">
-    
-  <label class="col-md-2 control-label" for="selectbasic">Escolher Oficina<h11>*</h11></label>
-  
-  <div class="col-md-3">
-    <select required id="Oficina" name="Oficina" class="form-control">
-      <option value="EducaçãoFísica">Educação Física</option>
-      <option value="Filosofia">Filosofia</option>
-      <option value="Física">Física</option>
-      <option value="Geografia">Geografia</option>
-      <option value="História">História</option>
-      <option value="Informática">Informática</option>
-      <option value="Inglês">Inglês</option>
-      <option value="Libras">Libras</option>
-      <option value="Literatura">Literatura</option>
-      <option value="Matemática">Matemática</option>
-      <option value="Português">Português</option>
-      <option value="Química">Química</option>
-      <option value="Sociologia">Sociologia</option>
-    </select>
+
+  <div class="form-group">
+  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica do Palestrante<h11>*</h11></label>  
+  <div class="col-md-4">
+  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
-  </div>
- 
+</div>
+</div>
+ <fieldset>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
@@ -223,11 +228,9 @@
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
-</div> 
 </fieldset>
 </form>
-        
-<!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
           </div>
         <!-- /.container-fluid -->
