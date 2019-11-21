@@ -20,11 +20,27 @@
             <h1 class="h3 mb-0 text-gray-800"></h1>
             
           </div>
+          <style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 <div class="container">
           <form method="post" action="index.php">
+<<<<<<< HEAD
   <div>
+=======
+ <div>
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -179,6 +195,7 @@
     <option value="to">Tocantins</option>
     </select>
   </div>
+<<<<<<< HEAD
 
 <div class="form-group">
     
@@ -216,7 +233,45 @@
 </div>
 </fieldset>
 </form>
+=======
+>>>>>>> master
 
+<div class="form-group">
+    
+  <label class="col-md-2 control-label" for="selectbasic">Escolher Seminário<h11>*</h11></label>
+  
+  <div class="col-md-3">
+    <select required id="Seminario" name="Seminario" class="form-control">
+      <option value="SeminarioC">Seminário da Ciência</option>
+      <option value="SeminarioA">Seminário das Águas</option>
+      <option value="SeminarioCom">Seminário de Comunicação</option>
+      <option value="SeminarioEd">Seminário de Educação </option>
+      <option value="SeminarioEt">Seminário de Ética</option>
+      <option value="SeminarioGe">Seminário de Geografia</option>
+      <option value="SeminarioPPG">Seminário de Pesquisa Pós Graduação</option>
+      <option value="SeminarioIV">Seminário Internacional de Violão</option>
+      <option value="SeminarioMA">Seminário Meio Ambiente</option>
+      <option value="SeminarioSPP">Seminário Sobre Políticas Públicas</option>
+         </select>
+  </div>
+  </div>
+  <div class="form-group">
+  <label class="col-md-2 control-label" for="Nome">Entidade que Representa<h11>*</h11></label>  
+  <div class="col-md-8">
+  <input id="Seminario" name="Seminario" placeholder="" class="form-control input-md" required="" type="text">
+  </div>
+</div>
+ 
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+  </div>
+</div>
+</fieldset>
+</form>
 </div>
 
 </div></div></div></div>

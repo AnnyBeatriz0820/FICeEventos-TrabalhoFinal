@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -19,12 +20,29 @@
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">
             </h1>
-            
-          </div>
+            </div>
+
+          <style>
+
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
+<<<<<<< HEAD
          <form class="form-horizontal">
+=======
+          <form method="post" action="index.php">
+>>>>>>> master
   <div>
         <fieldset>
         
@@ -94,13 +112,18 @@
       OnKeyPress="formatar('## #####-####', this)">
     </div>
   </div>
+<<<<<<< HEAD
   
+=======
+  </div>
+>>>>>>> master
     <label class="col-md-1 control-label" for="prependedtext">Telefone</label>
      <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
+<<<<<<< HEAD
     </div>
   </div>
  </div> 
@@ -135,8 +158,50 @@
       <span class="input-group-addon">Cidade<h11>*</h11></span>
       <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
     </div>
+=======
     </div>
   </div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+>>>>>>> master
+    </div>
+  </div>
+</div>
+<!-- Search input-->
+
+<!-- Prepended text-->
+
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
+      <div class="col-md-2">
+    <div class="input-group">
+      <span class="input-group-addon">Rua<h11>*</h11></span>
+      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    </div>
+  
+  <div class="form-group">
+  <label class="col-md-1 control-label" for="prependedtext"></label>
+  <div>
+      <div class="col-md-2">
+    <div class="input-group">
+<<<<<<< HEAD
+      <span class="input-group-addon">Bairro<h11>*</h11></span>
+=======
+      <span class="input-group-addon">Cidade<h11>*</h11></span>
+>>>>>>> master
+      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+    </div>
+    </div>
+  </div>
+<<<<<<< HEAD
+=======
   <div class="form-group">
   <label class="col-md-1 control-label" for="prependedtext"></label>
   <div>
@@ -147,6 +212,7 @@
     </div>
     </div>
   </div>
+>>>>>>> master
    
    </div>
   </div>

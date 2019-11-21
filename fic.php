@@ -20,9 +20,26 @@
             <h1 class="h3 mb-0 text-gray-800"></h1>
             
           </div>
+          <style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+<<<<<<< HEAD
            <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
+=======
+          <div class="container">
+         <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
+>>>>>>> master
  <fieldset>
  <body div class="panel-body" STYLE="background-color:beige";>
 <div>

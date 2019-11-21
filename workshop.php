@@ -20,11 +20,27 @@
             <h1 class="h3 mb-0 text-gray-800"></h1>
             
           </div>
+          <style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class='container'>
           <form method="post" action="index.php">
+<<<<<<< HEAD
    <div>
+=======
+  <div>
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 

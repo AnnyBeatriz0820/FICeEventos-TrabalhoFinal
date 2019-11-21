@@ -1,4 +1,4 @@
- <?php
+<?php
 
 echo "
 <!-- Logout Modal-->
@@ -23,3 +23,4 @@ echo "
 
 
 ";
+?>

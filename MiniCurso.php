@@ -17,17 +17,33 @@
 
 			<!-- Page Heading -->
 			<div class="d-sm-flex align-items-center justify-content-between mb-4">
-				<h1 class="h3 mb-0 text-gray-800">Mini-Curso</h1>
+				<h1 class="h3 mb-0 text-gray-800"></h1>
 				
 			</div>
+			<style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
 			<!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
 			<div class="container">
 				<form class="form-horizontal" role="form" method="POST" action="index.php">
 
+<<<<<<< HEAD
 						<b>
 							<div>
+=======
+					<div>
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -245,6 +261,7 @@
 </div>
 </fieldset>
 </form>
+<<<<<<< HEAD
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-6">
@@ -252,6 +269,8 @@
 						</div>
 					</div>
 				</form>
+=======
+>>>>>>> master
 			</div>
 			
 			

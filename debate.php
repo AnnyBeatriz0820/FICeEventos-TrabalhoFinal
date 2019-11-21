@@ -20,8 +20,21 @@
             <h1 class="h3 mb-0 text-gray-800"></h1>
             
           </div>
+          <style>
 
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+<<<<<<< HEAD
 <!--<?php
 if($login == "aluno"){
   include 'congressoAluno.php';
@@ -31,6 +44,11 @@ if($login == "aluno"){
 ?>-->
 <form class="form-horizontal">
   <div>
+=======
+          <div class='container'>
+          <form method="post" action="index.php">
+   <div>
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -107,6 +125,7 @@ if($login == "aluno"){
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
+<<<<<<< HEAD
     </div>
   </div>
  </div> 
@@ -119,6 +138,20 @@ if($login == "aluno"){
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
     </div>
   </div>
+=======
+    </div>
+  </div>
+ </div> 
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+    </div>
+  </div>
+>>>>>>> master
 </div>
 <!-- Search input-->
 
@@ -150,12 +183,22 @@ if($login == "aluno"){
     <div class="input-group">
       <span class="input-group-addon">Bairro<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
+<<<<<<< HEAD
+    </div>
+=======
+>>>>>>> master
     </div>
     </div>
   </div>
    
    </div>
   </div>
+<<<<<<< HEAD
+   
+   </div>
+  </div>
+=======
+>>>>>>> master
   <label class="col-md-2 control-label" for="selectbasic">Selecione a Cidade que Quer Participar <h11>*</h11></label>
   
   <div class="col-md-3">
@@ -224,6 +267,21 @@ if($login == "aluno"){
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
+<<<<<<< HEAD
+=======
+</div>
+ <fieldset>
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+  </div>
+</div>
+</fieldset>
+</form>
+>>>>>>> master
 </div>
  <fieldset>
 <!-- Button (Double) -->

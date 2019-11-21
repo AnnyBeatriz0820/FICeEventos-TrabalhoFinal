@@ -35,7 +35,32 @@ echo "
       <li class='nav-item'>
         <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapseUtilities' aria-expanded='true' aria-controls='collapseUtilities'>
           <i class='fas fa-fw fa-folder'></i>
-          <span>Ações</span>
+          <span>Ações Usuários</span>
+        </a>
+        <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
+          <div class='bg-white py-2 collapse-inner rounded'>
+            <h6 class='collapse-header'>Eventos Disponíveis:</h6>
+            <a class='collapse-item' href='congresso.php'>Congresso</a>
+            <a class='collapse-item' href='curso.php'>Curso</a>
+            <a class='collapse-item' href='debate.php'>Debate</a>
+            <a class='collapse-item' href='eventos.php'>Evento</a>
+            <a class='collapse-item' href='extensao.php'>Extensão</a>
+            <a class='collapse-item' href='fic.php'>FIC</a>
+            <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>
+            <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>
+            <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>
+            <a class='collapse-item' href='oficina.php'>Oficina</a>
+            <a class='collapse-item' href='palestra.php'>Palestra</a>
+            <a class='collapse-item' href='seminario.php'>Seminário</a>
+            <a class='collapse-item' href='workshop.php'>Workshop</a>
+          </div>
+        </div>
+      </li>
+
+      <li class='nav-item'>
+        <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapseUtilities' aria-expanded='true' aria-controls='collapseUtilities'>
+          <i class='fas fa-fw fa-folder'></i>
+          <span>Ações Administrador</span>
         </a>
         <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
           <div class='bg-white py-2 collapse-inner rounded'>
