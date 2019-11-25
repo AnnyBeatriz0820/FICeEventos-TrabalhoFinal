@@ -21,8 +21,12 @@
           
 =======
            <h1 class="h3 mb-2 text-gray-800">Banco de Dados do Sistema</h1>
+<<<<<<< Updated upstream
           <p class="mb-4">Tabelas com dados dos Eventos <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
 >>>>>>> master
+=======
+          <p class="mb-4">Tabelas com dados dos Eventos</p>
+>>>>>>> Stashed changes
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 

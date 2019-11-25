@@ -9,7 +9,7 @@ echo "
   <div class='sidebar-brand-icon rotate-n-15'>
     <i class='fas fa-laugh-wink'></i>
   </div>
-  <div class='sidebar-brand-text mx-3'>FIC e Eventos</div>
+  <div class='sidebar-brand-text mx-6'>FIC e Eventos</div>
 </a>
 
 <!-- Divider -->
@@ -65,7 +65,9 @@ echo "
         <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
           <div class='bg-white py-2 collapse-inner rounded'>
             <h6 class='collapse-header'>Eventos Disponíveis:</h6>
+<<<<<<< Updated upstream
             <a class='collapse-item' href='AdmCongresso.php'>Congresso</a>
+<<<<<<<
             <a class='collapse-item' href='AdmCurso.php'>Curso</a>
             <a class='collapse-item' href='AdmDebate.php'>Debate</a>
             <a class='collapse-item' href='AdmEvento.php'>Evento</a>
@@ -74,6 +76,20 @@ echo "
             <a class='collapse-item' href='AdmIniCien.php'>Iniciação-Cientifica</a>
             <a class='collapse-item' href='AdmMesaRedonda.php'>Mesa Redonda</a>
             <a class='collapse-item' href='AdmMinicurso.php'>Mini-Curso</a>
+=======
+=======
+            <a class='collapse-item' href='congresso.php'>Congresso</a>
+>>>>>>> Stashed changes
+            <a class='collapse-item' href='curso.php'>Curso</a>
+            <a class='collapse-item' href='debate.php'>Debate</a>
+            <a class='collapse-item' href='eventos.php'>Evento</a>
+            <a class='collapse-item' href='extensao.php'>Extensão</a>
+            <a class='collapse-item' href='fic.php'>FIC</a>
+            <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>
+            <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>
+            <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>
+<<<<<<< Updated upstream
+>>>>>>>
             <a class='collapse-item' href='AdmOficina.php'>Oficina</a>
             <a class='collapse-item' href='AdmPalestra.php'>Palestra</a>
             <a class='collapse-item' href='AdmSeminario.php'>Seminário</a>
@@ -83,6 +99,16 @@ echo "
         </div>
       </li>
       
+=======
+            <a class='collapse-item' href='oficina.php'>Oficina</a>
+            <a class='collapse-item' href='palestra.php'>Palestra</a>
+            <a class='collapse-item' href='seminario.php'>Seminário</a>
+            <a class='collapse-item' href='workshop.php'>Workshop</a>
+          </div>
+        </div>
+      </li>
+
+>>>>>>> Stashed changes
       <!-- Nav Item - Pages Collapse Menu -->
       <li class='nav-item'>
         <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapsePages' aria-expanded='true' aria-controls='collapsePages'>
