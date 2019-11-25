@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -18,8 +19,10 @@
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800"></h1>
-        </div>
-         <style>
+            
+          </div>
+          <style>
+
     h11 {
       color:red;
   }
@@ -32,7 +35,9 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-        <div>
+          <div class="container">
+<form action="index.php" method="post">
+   <div>
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -44,7 +49,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA a OFICINA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O WORKSHOP</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -56,7 +61,7 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Professor da Oficina<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Workshop<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
@@ -68,18 +73,18 @@
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   <fieldset>
-  <label class="col-md-1 control-label" for="Nome">Data da Oficina<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data do Workshop<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="date" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
-<label class="col-md-1 control-label" for="Nome">Hora de Início<h11>*</h11></label>  
+<label class="col-md-1 control-label" for="time">Hora de Início<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
+  <input id="time" name="time" placeholder="hh/mm" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
 </div>
 </br>
 <label class="col-md-1 control-label" for="Nome">Hora do Final<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
 </div>
 </fieldset>
 <!-- Multiple Radios (inline) -->
@@ -119,7 +124,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação do Workshop<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -139,7 +144,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre o Workshop<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -188,7 +193,7 @@
  
   </div>
 
-  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Oferecer a Oficina <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Workshop <h11>*</h11></label>
     <div class="col-md-3">
     <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Campus Acaraú</option>
@@ -229,25 +234,23 @@
     </select>
   </div>
 
-  <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica do Professor<h11>*</h11></label>  
-  <div class="col-md-4">
-  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
-  </div>
-</div>
+ 
 </div>
  <fieldset>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
-    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer Workshop</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
   </div>
 </div>
 </fieldset>
 </form>
- </div>
+</div>
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+          </div>
         <!-- /.container-fluid -->
 
       </div>

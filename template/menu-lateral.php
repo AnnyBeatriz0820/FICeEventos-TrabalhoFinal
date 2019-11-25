@@ -66,18 +66,18 @@ echo "
           <div class='bg-white py-2 collapse-inner rounded'>
             <h6 class='collapse-header'>Eventos Disponíveis:</h6>
             <a class='collapse-item' href='AdmCongresso.php'>Congresso</a>
-            <a class='collapse-item' href='curso.php'>Curso</a>
-            <a class='collapse-item' href='debate.php'>Debate</a>
-            <a class='collapse-item' href='eventos.php'>Evento</a>
-            <a class='collapse-item' href='extensao.php'>Extensão</a>
-            <a class='collapse-item' href='fic.php'>FIC</a>
-            <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>
-            <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>
-            <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>
+            <a class='collapse-item' href='AdmCurso.php'>Curso</a>
+            <a class='collapse-item' href='AdmDebate.php'>Debate</a>
+            <a class='collapse-item' href='AdmEvento.php'>Evento</a>
+            <a class='collapse-item' href='AdmExtensao.php'>Extensão</a>
+            <a class='collapse-item' href='AdmFic.php'>FIC</a>
+            <a class='collapse-item' href='AdmIniCien.php'>Iniciação-Cientifica</a>
+            <a class='collapse-item' href='AdmMesaRedonda.php'>Mesa Redonda</a>
+            <a class='collapse-item' href='AdmMinicurso.php'>Mini-Curso</a>
             <a class='collapse-item' href='AdmOficina.php'>Oficina</a>
             <a class='collapse-item' href='AdmPalestra.php'>Palestra</a>
-            <a class='collapse-item' href='seminario.php'>Seminário</a>
-            <a class='collapse-item' href='workshop.php'>Workshop</a>
+            <a class='collapse-item' href='AdmSeminario.php'>Seminário</a>
+            <a class='collapse-item' href='AdmWorkshop.php'>Workshop</a>
             
           </div>
         </div>

@@ -44,7 +44,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA a OFICINA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O DEBATE</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -56,38 +56,27 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Professor da Oficina<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Coodenador do debate<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de Vagas<h11>*</h11></label>  
-  <div class="col-md-1">
+  <label class="col-md-2 control-label" for="Nome">Quantidades de Convidados<h11>*</h11></label>  
+  <div class="col-md-2">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
-  <fieldset>
-  <label class="col-md-1 control-label" for="Nome">Data da Oficina<h11>*</h11></label>  
+  
+  <label class="col-md-1 control-label" for="Nome">Data do Debate<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
-<label class="col-md-1 control-label" for="Nome">Hora de Início<h11>*</h11></label>  
-  <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
-</div>
-</br>
-<label class="col-md-1 control-label" for="Nome">Hora do Final<h11>*</h11></label>  
-  <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
-</div>
-</fieldset>
-<!-- Multiple Radios (inline) -->
- <div>
 
+<!-- Multiple Radios (inline) -->
   <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
-  <div class="col-md-5"> 
-    <label required="" class="radio-inline" for="radios-0">
+  <div class="col-md-4"> 
+    <label required="" class="radio-inline" for="radios-0" >
       <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
       Crianças
     </label> 
@@ -99,27 +88,25 @@
       <input name="Jovens" id="Jovens" value="masculino" type="radio">
       Jovens
     </label>
-    
   <label class="radio-inline" for="radios-1">
-      <input name="Idosos" id="Idosos" value="Idosos" type="radio">
+      <input name="Idosos" id="sexo" value="Idosos" type="radio">
      Idosos
     </label>
   </div>
 <label class="radio-inline" for="radios-1">
-      <input name="Outros" id="Outros" value="Outros" type="radio">
+      <input name="Outros" id="sexo" value="Outros" type="radio">
     Outros
-  </div>
-     </label>
-    <div class="col-md-5">
+    </label>
+    <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Descreva Outros<h11>*</h11></span>
+      <span class="input-group-addon">Discrição de Outros<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
-      <!-- Prepended text-->
+  <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação Debate<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -139,7 +126,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para dúvidas sobre o Debate<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -151,12 +138,9 @@
 
 <!-- Prepended text-->
 
-<div>
-
 <div class="form-group">
-   
   <label class="col-md-2 control-label" for="prependedtext">Programação</label>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Tema<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
@@ -164,9 +148,9 @@
     </div>
   
   <div class="form-group">
-  <label class="col-md-0 control-label" for="prependedtext"></label>
+  <label class="col-md-1 control-label" for="prependedtext"></label>
   <div>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Ideia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
@@ -174,22 +158,21 @@
     </div>
   </div>
   <div class="form-group">
-  <label class="col-md-0 control-label" for="prependedtext"></label>
+  <label class="col-md-1 control-label" for="prependedtext"></label>
   <div>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Local<h11>*</h11></span>
-       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   </div>
+   
    </div>
-   </div>
- 
   </div>
-
-  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Oferecer a Oficina <h11>*</h11></label>
-    <div class="col-md-3">
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Organizar o Debate <h11>*</h11></label>
+  
+  <div class="col-md-3">
     <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Campus Acaraú</option>
     <option value="Acopiara">Campus Acopiara</option>
@@ -230,7 +213,7 @@
   </div>
 
   <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica do Professor<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Informações Adicionais<h11>*</h11></label>  
   <div class="col-md-4">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
@@ -241,13 +224,15 @@
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
-    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer Debate</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
   </div>
 </div>
 </fieldset>
 </form>
- </div>
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+          </div>
         <!-- /.container-fluid -->
 
       </div>

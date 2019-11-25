@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -44,7 +45,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE A PALESTRA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA A PALESTRA</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -230,9 +231,7 @@
 </div>
 </fieldset>
 </form>
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
+ </div>
         <!-- /.container-fluid -->
 
       </div>
