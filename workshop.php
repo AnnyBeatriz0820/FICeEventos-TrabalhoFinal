@@ -36,11 +36,11 @@
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class='container'>
           <form method="post" action="index.php">
-<<<<<<< HEAD
+
    <div>
-=======
+
   <div>
->>>>>>> master
+
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -238,6 +238,7 @@
   </div>
 </div>
 </fieldset>
+</fieldset>
 </form>
   
 </div>
@@ -247,7 +248,7 @@
 
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
-          </div>
+          
         <!-- /.container-fluid -->
 
       </div>

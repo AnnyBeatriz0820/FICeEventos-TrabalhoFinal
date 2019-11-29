@@ -35,7 +35,7 @@
   </style>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-<<<<<<< HEAD
+
 <!--<?php
 if($login == "aluno"){
   include 'congressoAluno.php';
@@ -43,11 +43,10 @@ if($login == "aluno"){
   include 'congressoAdm.php';
 }
 ?>-->
-<form class="form-horizontal">
-=======
+
           <div class='container'>
           <form method="post" action="index.php">
->>>>>>> master
+
   <div>
         <fieldset>
         
@@ -112,11 +111,11 @@ if($login == "aluno"){
     <div class="input-group">
       <span class="input-group-addon">Nome da Mãe<h11>*</h11></span>
       <input id="text" name="Mãe" class="form-control" placeholder=""required=""  type="text">
-<<<<<<< HEAD
+
     </div>
     </div>
   
-  <div class="form-group">
+    <div class="form-group">
   <label class="col-md-0 control-label" for="prependedtext"></label>
   <div>
       <div class="col-md-4">
@@ -125,20 +124,7 @@ if($login == "aluno"){
       <input id="text" name="Pai" class="form-control" placeholder=""required=""  type="text">
     </div>
     </div>
-=======
-    </div>
-    </div>
-  
-  <div class="form-group">
-  <label class="col-md-0 control-label" for="prependedtext"></label>
-  <div>
-      <div class="col-md-4">
-    <div class="input-group">
-      <span class="input-group-addon">Nome do Pai<h11>*</h11></span>
-      <input id="text" name="Pai" class="form-control" placeholder=""required=""  type="text">
-    </div>
-    </div>
->>>>>>> master
+
  
   </div>
 </div>
@@ -282,12 +268,10 @@ if($login == "aluno"){
   </div>
 </div>
 </fieldset>
-<<<<<<< HEAD
-=======
+
 </form>
->>>>>>> master
-</div>
-</form>
+
+
 
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
