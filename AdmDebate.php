@@ -36,7 +36,7 @@
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
-       
+       <IMG SRC="img/tela.png">
         <div STYLE="text-align:center;">
         <h4> Campus Acopiara </h4> </fieldset>
            </div>

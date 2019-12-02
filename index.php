@@ -4,6 +4,7 @@
  <?php include 'template/cabecalho.php' ?>
  <?php include 'template/menu-lateral.php' ?>
 
+
     <!-- Content Wrapper -->
     <div id='content-wrapper' class='d-flex flex-column'>
 
@@ -17,10 +18,38 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800" STYLE="font-size:40px;text-align:center">Eventos e FIC</h1>
+            <h1 class="h3 mb-0 text-gray-800">Eventos e Fic</h1>
+            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Gerar Relatório</a>
           </div>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+
+      
+      <li class='nav-item'>
+        <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapseUtilities' aria-expanded='true' aria-controls='collapseUtilities'>
+          <i class='fas fa-fw fa-folder'></i>
+         
+          <span>Ações Usuários</span>
+        </a>
+        <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
+          <div class='bg-white py-2 collapse-inner rounded'>
+            <h6 class='collapse-header'>Eventos Disponíveis:</h6>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='congresso.php'>Congresso</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='curso.php'>Curso</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='debate.php'>Debate</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='eventos.php'>Evento</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='extensao.php'>Extensão</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='fic.php'>FIC</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='oficina.php'>Oficina</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='palestra.php'>Palestra</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='seminario.php'>Seminário</a>&nbsp &nbsp &nbsp &nbsp
+            <a class='collapse-item' href='workshop.php'>Workshop</a>&nbsp &nbsp &nbsp &nbsp
+          </div>
+        </div>
 
 
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
