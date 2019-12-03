@@ -1,50 +1,27 @@
-<!DOCTYPE html>
-<html lang='en'>
+<!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+          <div class="container">
+
+          <form method="post" action="index.php">
+  <div>
+<fieldset>
+        
+       <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
+       
+        <div STYLE="text-align:center;">
+        <h4> Campus Acopiara </h4> </fieldset>
+           </div>
+           </div>
   
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
-
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
-
-      <!-- Main Content -->
-      <div id='content'>
-
-      <?php include 'template/menu-superior.php' ?>       
-
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
-
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800"></h1>
-            
-          </div>
-          <style>
-
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-<<<<<<< HEAD
-           <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
-=======
+<fieldset>
           <div class="container">
          <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
->>>>>>> master
- <fieldset>
- <body div class="panel-body" STYLE="background-color:beige";>
-<div>
-  <head><meta charset="UTF-8"></head>
-      <div>
+div class="panel-body" STYLE="background-color:beige";>
+<div class="form-group">
+<div class="col-md-11 control-label">
+        <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
+</div>
+</div>
+ <!-- Text input-->
         <fieldset STYLE="background-color:white";>
         <h4 STYLE="text-align:center;">DIRETORIA DE ENSINO - DIREN <h4 STYLE="text-align:center;">CONTROLADORIA DE CONTROLE ACADÊMICO-CCA</h4>
        <h1> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"> &nbsp &nbsp &nbsp &nbsp FICHA DE PRÉ-MATRÍCULA </h1>
@@ -278,7 +255,7 @@ CURSO/MODALIDADE:
    <br/>
    <br/>
    <br/>
-   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
    <fieldset STYLE="background-color:white";><FONT SIZE="2">
      <div> 
       <br/>
@@ -302,31 +279,3 @@ CURSO/MODALIDADE:
   </form>
 </div>       
   <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <?php include 'template/rodape.php' ?>
-    
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
-
-  <?php include 'template/logout.php' ?>
-
-  <?php include 'template/imports.php' ?>
-
-</body>
-
-</html>
