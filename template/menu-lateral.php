@@ -15,11 +15,15 @@ echo "
 <!-- Divider -->
 <hr class='sidebar-divider my-0'>
 
-<!-- Nav Item - Dashboard -->
+<!-- Nav Item - Teste -->
 <li class='nav-item active'>
   <a class='nav-link' href='index.php'>
     <i class='fas fa-fw fa-tachometer-alt'></i>
+<<<<<<< HEAD
     <span>Painel de Controle</span></a>
+=======
+    <span>Teste</span></a>
+>>>>>>> Rogério
 </li>
 
 <!-- Divider -->
