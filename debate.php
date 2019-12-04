@@ -34,7 +34,15 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-<<<<<<< HEAD
+<?php 
+  //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
+  if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
+    include "debate_adm.php";
+  } else {
+    include "debate_usuario.php";
+  }
+?>
+
 <!--<?php
 if($login == "aluno"){
   include 'congressoAluno.php';
@@ -46,7 +54,7 @@ if($login == "aluno"){
   <div>
 =======
           <div class='container'>
-          <form method="post" action="index.php">
+          <form method="post" action="index.php" method="post" class="was-validated">
    <div>
 >>>>>>> master
         <fieldset>

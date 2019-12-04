@@ -46,7 +46,8 @@ if($login == "aluno"){
   <div>
 =======
           <div class='container'>
-          <form method="post" action="index.php">
+
+          <form method="post" action="index.php" method="post" class="was-validated">
    <div>
 >>>>>>> master
         <fieldset>

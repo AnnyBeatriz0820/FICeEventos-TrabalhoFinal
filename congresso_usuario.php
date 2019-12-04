@@ -1,5 +1,9 @@
+         <HEAD>
+            
+         </HEAD>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
+
 
           <form method="post" action="index.php">
   <div>
@@ -50,11 +54,11 @@
       Feminino
     </label> 
     <label class="radio-inline" for="radios-1">
-      <input name="sexo" id="sexo" value="masculino" type="radio">
+      <input name="sexo" id="sexo" value="masculino" type="radio"required>
       Masculino
     </label>
      <label class="radio-inline" for="radios-1">
-      <input name="sexo" id="sexo" value="masculino" type="radio">
+      <input name="sexo" id="sexo" value="masculino" type="radio"required>
       Outros
     </label>
   </div>
