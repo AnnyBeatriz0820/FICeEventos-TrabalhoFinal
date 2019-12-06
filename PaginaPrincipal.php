@@ -14,7 +14,7 @@
        <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
 <div class="col-md-11 control-label">
-  
+  <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
 </div>
 </div>      
 
@@ -26,7 +26,9 @@
             <h1 class="h3 mb-0 text-gray-800"></h1>
         </div>
          <style>
-    
+    h11 {
+      color:red;
+  }
   #logo {
           width:50%;
           height:50%;
@@ -40,7 +42,7 @@
   <fieldset>
   <div>
   <fieldset>
-  <h2 STYLE="font-size:28px;text-align:left"><FONT color="Green">  &nbsp &nbsp &nbsp &nbsp Eventos e FIC &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="login.php"style="color:blue"><input type="button" value="Login"/> <h2 style="text-align:right;font-size:25px"></a>
+  <h2 STYLE="font-size:28px;text-align:left"><FONT color="Green">  &nbsp &nbsp &nbsp &nbsp Eventos e FIC &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="login.php"style="color:blue"><input type="button" value="Login"/> <h2 style="text-align:right;font-size:25px"></a>
   </h2></h2></fieldset>
    <h2 STYLE="font-size:20px;text-align:center"><FONT color="black">Role a Página e Cadastre-se em nosso Site</h2>
   <h2 STYLE="text-align:center;font-size:80px"><img src="img/tela.jpg";alt="Trulli"; width="1100"; height="700"></h2>

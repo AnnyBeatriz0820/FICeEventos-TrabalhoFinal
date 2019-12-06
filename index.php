@@ -1,82 +1,102 @@
+<?php
+// remove all session variables
+session_unset();
+
+// destroy the session
+session_destroy();
+
+print_r($_SESSION);
+?>
+
 <!DOCTYPE html>
-<html lang='en'>
-  
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
+<html lang="en">
 
+<head>
 
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-      <!-- Main Content -->
-      <div id='content'>
+  <title>IFCE Campus Acopiara</title>
 
-      <?php include 'template/menu-superior.php' ?>       
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
+  <!-- Custom styles for this template-->
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Eventos e Fic</h1>
-            <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Gerar Relatório</a>
-          </div>
+</head>
 
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+<body class="bg-gradient-primary">
 
+  <div class="container">
 
-      
-      <li class='nav-item'>
-        <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapseUtilities' aria-expanded='true' aria-controls='collapseUtilities'>
-          <i class='fas fa-fw fa-folder'></i>
-         
-          <span>Ações Usuários</span>
-        </a>
-        <div id='collapseUtilities' class='collapse' aria-labelledby='headingUtilities' data-parent='#accordionSidebar'>
-          <div class='bg-white py-2 collapse-inner rounded'>
-            <h6 class='collapse-header'>Eventos Disponíveis:</h6>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='congresso.php'>Congresso</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='curso.php'>Curso</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='debate.php'>Debate</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='eventos.php'>Evento</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='extensao.php'>Extensão</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='fic.php'>FIC</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='ic.php'>Iniciação-Cientifica</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='mesaredonda.php'>Mesa Redonda</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='minicurso.php'>Mini-Curso</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='oficina.php'>Oficina</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='palestra.php'>Palestra</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='seminario.php'>Seminário</a>&nbsp &nbsp &nbsp &nbsp
-            <a class='collapse-item' href='workshop.php'>Workshop</a>&nbsp &nbsp &nbsp &nbsp
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
+
+      <div class="col-xl-10 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div ></div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Bem vindo de volta!</h1>
+                  </div>
+                  <form id="loginForm" class="user" method="POST" action="main.php">
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Email...">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Senha">
+                    </div>
+                    <div class="form-group">
+                      <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" class="custom-control-input" id="customCheck">
+                        <label class="custom-control-label" for="customCheck">Lembrar Usuário</label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-5 col-sm-offset-9" align="center">
+                            <button type="submit" class="btn btn-primary">Logar</button>
+                        </div>
+                    </div>
+                    <hr>
+                  </form>
+                  <hr>
+                  <div class="text-center">
+                    <a class="small" href="forgot-password.php">Esqueceu a senha?</a>
+                  </div>
+                  <div class="text-center">
+                    <a class="small" href="register.php">Crie a sua conta aqui!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
-        <!-- /.container-fluid -->
-
       </div>
-      <!-- End of Main Content -->
-
-      <?php include 'template/rodape.php' ?>
-    
 
     </div>
-    <!-- End of Content Wrapper -->
 
   </div>
-  <!-- End of Page Wrapper -->
 
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <?php include 'template/logout.php' ?>
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <?php include 'template/imports.php' ?>
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
 
 </body>
 
