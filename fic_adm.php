@@ -1,44 +1,7 @@
-
-<!DOCTYPE html>
-<html lang='en'>
-  
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
-
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
-
-      <!-- Main Content -->
-      <div id='content'>
-
-      <?php include 'template/menu-superior.php' ?>       
-
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
-
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800"></h1>
-            
-          </div>
-          <style>
-
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-          <div class="container">
+<div class="container">
 <form action="index.php" method="post">
    <div>
-        <fieldset>
+       <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
        
@@ -49,7 +12,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O MINICURSO</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O CURSO FIC</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -61,38 +24,31 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Mini Curso<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Curso<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de pessoas estimadas<h11>*</h11></label>  
-  <div class="col-md-1">
+  <label class="col-md-2 control-label" for="Nome">Quantidades de Vagas<h11>*</h11></label>  
+  <div class="col-md-2">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
-  <fieldset>
-  <label class="col-md-1 control-label" for="Nome">Data do Mini Curso<h11>*</h11></label>  
+  
+  <label class="col-md-1 control-label" for="Nome">Data de início do Curso<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="date" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
-<label class="col-md-1 control-label" for="time">Hora de Início<h11>*</h11></label>  
+<label class="col-md-1 control-label" for="Nome">Data do final do Curso<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="time" name="time" placeholder="hh/mm" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
-</br>
-<label class="col-md-1 control-label" for="Nome">Hora do Final<h11>*</h11></label>  
-  <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
-</div>
-</fieldset>
-<!-- Multiple Radios (inline) -->
- <div>
 
+<!-- Multiple Radios (inline) -->
   <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
-  <div class="col-md-5"> 
-    <label required="" class="radio-inline" for="radios-0">
+  <div class="col-md-4"> 
+    <label required="" class="radio-inline" for="radios-0" >
       <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
       Crianças
     </label> 
@@ -104,27 +60,25 @@
       <input name="Jovens" id="Jovens" value="masculino" type="radio">
       Jovens
     </label>
-    
   <label class="radio-inline" for="radios-1">
-      <input name="Idosos" id="Idosos" value="Idosos" type="radio">
+      <input name="Idosos" id="sexo" value="Idosos" type="radio">
      Idosos
     </label>
   </div>
 <label class="radio-inline" for="radios-1">
-      <input name="Outros" id="Outros" value="Outros" type="radio">
+      <input name="Outros" id="sexo" value="Outros" type="radio">
     Outros
-  </div>
-     </label>
-    <div class="col-md-5">
+    </label>
+    <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Descreva Outros<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
-      <!-- Prepended text-->
+  <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação Mini Curso<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação do Curso<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -144,7 +98,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre o Mini curso<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para dúvidas sobre o Curso<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -156,12 +110,9 @@
 
 <!-- Prepended text-->
 
-<div>
-
 <div class="form-group">
-   
   <label class="col-md-2 control-label" for="prependedtext">Programação</label>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Tema<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
@@ -169,9 +120,9 @@
     </div>
   
   <div class="form-group">
-  <label class="col-md-0 control-label" for="prependedtext"></label>
+  <label class="col-md-1 control-label" for="prependedtext"></label>
   <div>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Ideia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
@@ -179,22 +130,21 @@
     </div>
   </div>
   <div class="form-group">
-  <label class="col-md-0 control-label" for="prependedtext"></label>
+  <label class="col-md-1 control-label" for="prependedtext"></label>
   <div>
-      <div class="col-md-3">
+      <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Local<h11>*</h11></span>
-       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   </div>
+   
    </div>
-   </div>
- 
   </div>
-
-  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Mini Curso <h11>*</h11></label>
-    <div class="col-md-3">
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Curso FIC<h11>*</h11></label>
+  
+  <div class="col-md-3">
     <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Campus Acaraú</option>
     <option value="Acopiara">Campus Acopiara</option>
@@ -233,47 +183,18 @@
             <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-
- 
+<h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer Mini Curso</button>
-    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
 </fieldset>
 </form>
 </div>
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <?php include 'template/rodape.php' ?>
-    
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
-
-  <?php include 'template/logout.php' ?>
-
-  <?php include 'template/imports.php' ?>
-
-</body>
-
-</html>
+         

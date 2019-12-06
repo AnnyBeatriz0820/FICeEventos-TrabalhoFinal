@@ -34,13 +34,14 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-          <div class='container'>
-          <form method="post" action="index.php">
 
-   <div>
-
+<<<<<<< HEAD
+         <form class="form-horizontal">
   <div>
-
+=======
+          <form method="post" action="Iniciação-Cientifica.php">
+ <div>
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -52,7 +53,7 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO PARA WORKSHOP</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSO DE ESTENSÃO</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -63,7 +64,7 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Aluno<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
@@ -98,7 +99,27 @@
   </div>
 </div>
 
-
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prependedtext">Filiação</label>
+      <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">Nome da Mãe<h11>*</h11></span>
+      <input id="text" name="Mãe" class="form-control" placeholder=""required=""  type="text">
+    </div>
+    </div>
+  
+  <div class="form-group">
+  <label class="col-md-0 control-label" for="prependedtext"></label>
+  <div>
+      <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">Nome do Pai<h11>*</h11></span>
+      <input id="text" name="Pai" class="form-control" placeholder=""required=""  type="text">
+    </div>
+    </div>
+ 
+  </div>
+</div>
 <!-- Prepended text-->
 <div class="form-group">
   <label class="col-md-2 control-label" for="prependedtext">Telefone <h11>*</h11></label>
@@ -130,7 +151,15 @@
   </div>
 </div>
 <!-- Search input-->
-
+<div class="form-group">
+  <label class="col-md-2 control-label" for="CEP">CEP <h11>*</h11></label>
+  <div class="col-md-2">
+    <input id="cep" name="cep" placeholder="Apenas números" class="form-control input-md" required="" value="" type="search" maxlength="8" pattern="[0-9]+$">
+  </div>
+  <div class="col-md-2">
+      <button type="button" class="btn btn-primary" onclick="pesquisacep(cep.value)">Pesquisar</button>
+    </div>
+</div>
 <!-- Prepended text-->
 
 <div class="form-group">
@@ -165,66 +194,63 @@
    
    </div>
   </div>
-  <label class="col-md-2 control-label" for="selectbasic">Selecione a Cidade que Quer Participar <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Estado <h11>*</h11></label>
   
   <div class="col-md-3">
-    <select required id="Workshop" name="Workshop" class="form-control">
-     <option value="Acaraú">Acaraú</option>
-    <option value="Acopiara">Acopiara</option>
-    <option value="Aracati">Aracati </option>
-    <option value="Baturité">Baturité</option>
-    <option value="Boa Viagem">Boa Viagem</option>
-    <option value="Camocim">Camocim</option>
-    <option value="Canindé">Canindé</option>
-    <option value="Caucaia">Caucaia</option>
-    <option value="Cedro">Cedro</option>
-    <option value="Crateús">Crateús</option>
-    <option value="Crato">Crato</option>
-    <option value="Fortaleza">Fortaleza</option>
-    <option value="Guaramiranga">Guaramiranga</option>
-    <option value="Horizonte">Horizonte</option>
-    <option value="Iguatu">Iguatu </option>
-    <option value="Itapipoca">Itapipoca</option>
-    <option value="Jaguaribe">Jaguaribe</option>
-    <option value="Jaguaruana">Jaguaruana</option>
-    <option value="JN">Juazeiro do Norte</option>
-    <option value="LN">Limoeiro do Norte</option>
-    <option value="Maracanaú">Maracanaú</option>
-    <option value="Maranguape">Maranguape</option>
-    <option value="Mombaça">Mombaça</option>
-    <option value="MV">Morada Nova</option>
-    <option value="Paracuru">Paracuru</option>
-    <option value="Pecém">Pecém</option>
-    <option value="PIF">Polo de Inovação Fortaleza</option>
-     <option value="Quixadá">Quixadá </option>
-      <option value="Reitoria">Reitoria</option>
-       <option value="Sobral">Sobral</option>
-        <option value="TN">Tabuleiro do Norte</option>
-         <option value="Tauá">Tauá</option>
-          <option value="Tianguá">Tianguá</option>
-           <option value="Ubajara">Ubajara </option>
-            <option value="Umirim">Umirim</option>
+    <select required id="escolaridade" name="escolaridade" class="form-control">
+     <option value="ac">Acre</option>
+    <option value="al">Alagoas</option>
+    <option value="am">Amazonas</option>
+    <option value="ap">Amapá</option>
+    <option value="ba">Bahia</option>
+    <option value="ce">Ceará</option>
+    <option value="df">Distrito Federal</option>
+    <option value="es">Espírito Santo</option>
+    <option value="go">Goiás</option>
+    <option value="ma">Maranhão</option>
+    <option value="mt">Mato Grosso</option>
+    <option value="ms">Mato Grosso do Sul</option>
+    <option value="mg">Minas Gerais</option>
+    <option value="pa">Pará</option>
+    <option value="pb">Paraíba</option>
+    <option value="pr">Paraná</option>
+    <option value="pe">Pernambuco</option>
+    <option value="pi">Piauí</option>
+    <option value="rj">Rio de Janeiro</option>
+    <option value="rn">Rio Grande do Norte</option>
+    <option value="ro">Rondônia</option>
+    <option value="rs">Rio Grande do Sul</option>
+    <option value="rr">Roraima</option>
+    <option value="sc">Santa Catarina</option>
+    <option value="se">Sergipe</option>
+    <option value="sp">São Paulo</option>
+    <option value="to">Tocantins</option>
     </select>
   </div>
 <div class="form-group">
     
-  <label class="col-md-2 control-label" for="selectbasic">Escolher Tema<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Selecione seu Curso de Extensão<h11>*</h11></label>
   
   <div class="col-md-3">
-    <select required id="Workshop" name="Workshop" class="form-control">
-      <option value="WorkshopEst">Workshop  Estudantil</option>
-      <option value="WorkshopBAI">Workshop Brasileiro de Avaliação de Impacto</option>
-      <option value="WorkshopCGE">Workshop Cearense de Gestão do Esporte</option>
-      <option value="WorkshopC">Workshop da Ciência</option>
-      <option value="WorkshopS">Workshop da Saúde</option>
-      <option value="WorkshopA">Workshop das Águas</option>
-      <option value="WorkshopEd">Workshop de Educação</option>
-      <option value="WorkshopTI">Workshop de Técnologia</option>
-      <option value="WorkshopZ">Workshop de Pesquisa</option>
-      <option value="WorkshopE">Workshop do Esporte</option>
-      <option value="WorkshopIACN">Workshop Internacional Artefatos da Cultura Negra</option>
-      <option value="WorkshopSM">Workshop Internacional de Saúde Mental</option>
-      
+    <select required id="Curso" name="Curso" class="form-control">
+      <option value="Filosofia">Curso de Manutenção de Celulares</option>
+      <option value="Filosofia">Curso de Música</option>
+      <option value="Filosofia">Espanhol</option>
+      <option value="Física">Estatística Aplicada a Educação com SPSS </option>
+      <option value="Geografia">Física e Matemática</option>
+      <option value="Física">Francês</option>
+      <option value="Sociologia">Italiano</option>
+      <option value="Literatura">Jiu-gítsu e muay  thai</option>
+      <option value="Física">Judô</option>
+      <option value="Inglês">Libras</option>
+      <option value="Física">Pré-Enem</option>
+       <option value="Matemática">Robóstica</option>
+      <option value="História">História</option>
+      <option value="Informática">Informática</option>
+      <option value="Inglês">Inglês</option>
+      <option value="Inglês">Libras</option>
+      <option value="Português">Português</option>
+      <option value="Química">Química</option>
     </select>
   </div>
   </div>
@@ -233,22 +259,16 @@
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever no Workshop</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
 </fieldset>
-</fieldset>
 </form>
-  
 </div>
-
-
-</div></div></div></div>
-
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
-          
+          </div></div></div></div></div>
         <!-- /.container-fluid -->
 
       </div>

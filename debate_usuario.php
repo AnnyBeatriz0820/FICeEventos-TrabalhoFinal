@@ -34,13 +34,21 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+<<<<<<< HEAD
+<!--<?php
+if($login == "aluno"){
+  include 'congressoAluno.php';
+} elseif ($login == "admin") {
+  include 'congressoAdm.php';
+}
+?>-->
+<form class="form-horizontal">
+  <div>
+=======
           <div class='container'>
           <form method="post" action="index.php">
-
    <div>
-
-  <div>
-
+>>>>>>> master
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -52,11 +60,12 @@
   <!-- Text input-->
 <fieldset>
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO PARA WORKSHOP</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSCRIÇÃO PARA DEBATE</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
 <div class="col-md-11 control-label">
+  <fieldset>
         <p class="help-block"><h11>*</h11> Campo Obrigatório </p>
 </div>
 </div>
@@ -116,6 +125,7 @@
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
+<<<<<<< HEAD
     </div>
   </div>
  </div> 
@@ -128,6 +138,20 @@
       <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
     </div>
   </div>
+=======
+    </div>
+  </div>
+ </div> 
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <div class="col-md-5">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="email@email.com" required="" type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" >
+    </div>
+  </div>
+>>>>>>> master
 </div>
 <!-- Search input-->
 
@@ -138,7 +162,7 @@
       <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Rua<h11>*</h11></span>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   
@@ -148,7 +172,7 @@
       <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Cidade<h11>*</h11></span>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   </div>
@@ -158,17 +182,27 @@
       <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon">Bairro<h11>*</h11></span>
-      <input id="numero" name="numero" class="form-control" placeholder="" required=""  type="text">
+      <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
+<<<<<<< HEAD
+    </div>
+=======
+>>>>>>> master
     </div>
     </div>
   </div>
    
    </div>
   </div>
+<<<<<<< HEAD
+   
+   </div>
+  </div>
+=======
+>>>>>>> master
   <label class="col-md-2 control-label" for="selectbasic">Selecione a Cidade que Quer Participar <h11>*</h11></label>
   
   <div class="col-md-3">
-    <select required id="Workshop" name="Workshop" class="form-control">
+    <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Acaraú</option>
     <option value="Acopiara">Acopiara</option>
     <option value="Aracati">Aracati </option>
@@ -211,44 +245,58 @@
   <label class="col-md-2 control-label" for="selectbasic">Escolher Tema<h11>*</h11></label>
   
   <div class="col-md-3">
-    <select required id="Workshop" name="Workshop" class="form-control">
-      <option value="WorkshopEst">Workshop  Estudantil</option>
-      <option value="WorkshopBAI">Workshop Brasileiro de Avaliação de Impacto</option>
-      <option value="WorkshopCGE">Workshop Cearense de Gestão do Esporte</option>
-      <option value="WorkshopC">Workshop da Ciência</option>
-      <option value="WorkshopS">Workshop da Saúde</option>
-      <option value="WorkshopA">Workshop das Águas</option>
-      <option value="WorkshopEd">Workshop de Educação</option>
-      <option value="WorkshopTI">Workshop de Técnologia</option>
-      <option value="WorkshopZ">Workshop de Pesquisa</option>
-      <option value="WorkshopE">Workshop do Esporte</option>
-      <option value="WorkshopIACN">Workshop Internacional Artefatos da Cultura Negra</option>
-      <option value="WorkshopSM">Workshop Internacional de Saúde Mental</option>
-      
+    <select required id="Debate" name="Debate" class="form-control">
+      <option value="DebateEst">Debate sobre Educação</option>
+      <option value="DebateBAI">Debate sobre Avaliação da Economia</option>
+      <option value="DebateCGE">Debate Cearense de Gestão do Esporte</option>
+      <option value="DebateC">Debate da Ciência</option>
+      <option value="DebateS">Debate da Saúde</option>
+      <option value="DebateA">Debate das Águas</option>
+      <option value="DebateEd">Debate de Ètica</option>
+      <option value="DebateTI">Debate de Técnologia</option>
+      <option value="DebateZ">Debate de Pesquisa</option>
+      <option value="DebateE">Debate do Esporte</option>
+      <option value="DebateIACN">Debate da Política</option>
+      <option value="DebateSM">Debate da Saúde Mental</option>
+      <option value="DebateAP">Debate sobre Area da Pesca</option>
     </select>
   </div>
   </div>
- 
+  <div class="form-group">
+  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica<h11>*</h11></label>  
+  <div class="col-md-8">
+  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
+  </div>
+<<<<<<< HEAD
+=======
+</div>
+ <fieldset>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever no Workshop</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
 </fieldset>
+</form>
+>>>>>>> master
+</div>
+ <fieldset>
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-2 control-label" for="Cadastrar"></label>
+  <div class="col-md-8">
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
+  </div>
+</div>
 </fieldset>
 </form>
-  
-</div>
-
-
-</div></div></div></div>
-
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
-          
+          </div>
         <!-- /.container-fluid -->
 
       </div>
