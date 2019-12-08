@@ -2,7 +2,6 @@
 // Start the session
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -22,33 +21,20 @@ session_start();
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800"></h1>
+            <h1 class="h3 mb-0 text-gray-800">Palestra</h1>
             
           </div>
-          <style>
 
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-   <?php 
-  //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
-                   print_r($_SESSION);
 
-                  if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
-                      include "palestra_adm.php";
-                    } else {
-                      include "palestra_usuario.php";
-                    }
-                  ?>
+          <?php 
+            //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
+            if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
+              include "palestra_adm.php";
+            } else {
+              include "palestra_usuario.php";
+            }
+          ?>
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
           </div>

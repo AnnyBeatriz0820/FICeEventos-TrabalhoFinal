@@ -30,7 +30,7 @@ print_r($_SESSION);
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-info">
 
   <div class="container">
 
@@ -64,7 +64,7 @@ print_r($_SESSION);
                     </div>
                     <div class="form-group">
                         <div class="col-sm-5 col-sm-offset-9" align="center">
-                            <button type="submit" class="btn btn-primary">Logar</button>
+                            <button type="submit" class="btn btn-info">Logar</button>
                         </div>
                     </div>
                     <hr>

@@ -12,7 +12,7 @@
            </div>
   <!-- Text input-->
 <fieldset>
-<div class="panel panel-primary">
+<div class="panel panel-info">
     <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE O CONGRESSO</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>

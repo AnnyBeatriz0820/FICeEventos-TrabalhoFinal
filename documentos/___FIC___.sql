@@ -4,8 +4,19 @@ set autocommit = 0;
 start transaction;
 set time_zone = "+00:00";
 
-
-
+DROP TABLE IF EXISTS tipoevento;
+DROP TABLE IF EXISTS inscricao;
+DROP TABLE IF EXISTS usuario;
+DROP TABLE IF EXISTS acao;
+DROP TABLE IF EXISTS evento;
+DROP TABLE IF EXISTS endereco;
+DROP TABLE IF EXISTS cidade;
+DROP TABLE IF EXISTS estado;
+DROP TABLE IF EXISTS pais;
+DROP TABLE IF EXISTS administrador;
+DROP TABLE IF EXISTS mes;
+DROP TABLE IF EXISTS campus;
+DROP TABLE IF EXISTS escolaridade;
 
 create table `administrador` (
   `nome` varchar(50) default null,
@@ -15,13 +26,26 @@ create table `administrador` (
   `id` int not null primary key auto_increment
 ) engine=innodb default charset=latin1;
 
+create table `campus` (
+  `id` int not null primary key auto_increment,
+  `sigla` varchar(2) default null,
+  `nome` varchar(50) default null
+) engine=innodb default charset=latin1;
 
+create table `escolaridade` (
+  `id` int not null primary key auto_increment,
+  `nome` varchar(50) default null
+) engine=innodb default charset=latin1;
+
+create table `mes` (
+  `id` int not null primary key auto_increment,
+  `nome` varchar(50) default null
+) engine=innodb default charset=latin1;
 
 create table `pais` (
   `id` int not null primary key auto_increment,
   `nome` varchar(50) default null
 ) engine=innodb default charset=latin1;
-
 
 create table `estado` (
   `id` int(11) not null  primary key auto_increment,
@@ -89,8 +113,8 @@ create table `inscricao` (
   `fk_acao_id` int default null,
   `fk_usuario_id` int default null,
     FOREIGN KEY (fk_evento_id) REFERENCES evento(id),
-      FOREIGN KEY (fk_acao_id) REFERENCES acao(id),
-        FOREIGN KEY (fk_usuario_id) REFERENCES usuario(id)
+    FOREIGN KEY (fk_acao_id) REFERENCES acao(id),
+    FOREIGN KEY (fk_usuario_id) REFERENCES usuario(id)
 ) engine=innodb default charset=latin1;
 
 

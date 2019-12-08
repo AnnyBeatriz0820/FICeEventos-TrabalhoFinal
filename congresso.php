@@ -1,4 +1,7 @@
-
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -18,38 +21,23 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">
-            </h1>
-            </div>
-
-          <style>
-
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
+            <h1 class="h3 mb-0 text-gray-800">Congresso</h1>
+            
+          </div>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
- 
-<?php 
+          <?php 
   //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
   if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
     include "congresso_adm.php";
   } else {
-    include "congresso_aluno.php";
+    include "congresso_usuario.php";
   }
 ?>
 
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
-          </div></div></div></div></div>
+          </div>
         <!-- /.container-fluid -->
 
       </div>
