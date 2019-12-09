@@ -1,24 +1,41 @@
-<head>
+<!DOCTYPE html>
+<html lang='en'>
   
-  
-</head> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-</html>
-<div class="container">
-<form action="index.php" method="post" class="was-validated">
-   <div>
-        <fieldset>
-        
-       <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
-       
-        <div STYLE="text-align:center;">
-        <h4> Campus Acopiara </h4> </fieldset>
-           </div>
-           </div>
-  <!-- Text input-->
-<fieldset>
+ <?php include 'template/cabecalho.php' ?>
+ <?php include 'template/menu-lateral.php' ?>
+
+    <!-- Content Wrapper -->
+    <div id='content-wrapper' class='d-flex flex-column'>
+
+      <!-- Main Content -->
+      <div id='content'>
+
+      <?php include 'template/menu-superior.php' ?>       
+
+        <!-- Begin Page Content -->
+        <div class='container-fluid'>
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800"></h1>
+            
+          </div>
+          <style>
+
+    h11 {
+      color:red;
+  }
+  #logo {
+          width:50%;
+          height:50%;
+  }
+  .panel-heading{
+      font-size:150%;
+  }
+  </style>
+          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+ <div class='container'>
+          <form>
 <div class="panel panel-primary">
     <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE O CONGRESSO</I></h2></div>
      
@@ -77,11 +94,11 @@
       Crianças
     </label> 
     <label class="radio-inline" for="radios-1">
-      <input name="Adolescentes" id="Adolescentes" value="Crianças" type="radio">
+      <input name="Adolescentes" id="Adolescentes" value="Crianças" type="radio"required>
       Adolescentes
     </label>
      <label class="radio-inline" for="radios-1">
-      <input name="Jovens" id="Jovens" value="masculino" type="radio">
+      <input name="Jovens" id="Jovens" value="masculino" type="radio"required>
       Jovens
     </label>
     
@@ -116,7 +133,7 @@
      <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX"required type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
     </div>
   </div>
@@ -228,3 +245,33 @@
 </fieldset>
 </form>
 </div>
+
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+          </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+      <?php include 'template/rodape.php' ?>
+    
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class='scroll-to-top rounded' href='#page-top'>
+    <i class='fas fa-angle-up'></i>
+  </a>
+
+  <?php include 'template/logout.php' ?>
+
+  <?php include 'template/imports.php' ?>
+
+</body>
+
+</html>
