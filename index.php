@@ -5,20 +5,18 @@ session_unset();
 // destroy the session
 session_destroy();
 
-print_r($_SESSION);
+//print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>IFCE Campus Acopiara</title>
 
   <!-- Custom fonts for this template-->
@@ -30,7 +28,7 @@ print_r($_SESSION);
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-info">
 
   <div class="container">
 
@@ -64,7 +62,7 @@ print_r($_SESSION);
                     </div>
                     <div class="form-group">
                         <div class="col-sm-5 col-sm-offset-9" align="center">
-                            <button type="submit" class="btn btn-primary">Logar</button>
+                            <button type="submit" class="btn btn-info">Logar</button>
                         </div>
                     </div>
                     <hr>

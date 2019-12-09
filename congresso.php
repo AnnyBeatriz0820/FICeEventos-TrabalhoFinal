@@ -1,78 +1,71 @@
-
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang='en'>
-  
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
 
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
+<?php include 'template/cabecalho.php' ?>
+<?php include 'template/menu-lateral.php' ?>
 
-      <!-- Main Content -->
-      <div id='content'>
+<!-- Content Wrapper -->
+<div id='content-wrapper' class='d-flex flex-column'>
 
-      <?php include 'template/menu-superior.php' ?>       
+  <!-- Main Content -->
+  <div id='content'>
 
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
+    <?php include 'template/menu-superior.php' ?>       
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">
-            </h1>
-            </div>
-
-          <style>
-
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
+            <h1 class="h3 mb-0 text-gray-800">Congresso</h1>
+            
+          </div>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
- 
-<?php 
+          <?php 
   //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
   if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
     include "congresso_adm.php";
   } else {
-    include "congresso_aluno.php";
+    include "congresso_usuario.php";
   }
 ?>
 
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+                  if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
+                      include "congresso_adm.php";
+                    } else {
+                      include "congresso_usuario.php";
+                    }
+                  ?>
 
-          </div></div></div></div></div>
+          </div>
         <!-- /.container-fluid -->
 
-      </div>
-      <!-- End of Main Content -->
+                </div>
+                <!-- /.container-fluid -->
 
-      <?php include 'template/rodape.php' ?>
-    
+              </div></div>
+              <!-- End of Main Content -->
 
-    </div>
-    <!-- End of Content Wrapper -->
+              <?php include 'template/rodape.php' ?>
 
-  </div>
-  <!-- End of Page Wrapper -->
 
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
+            </div>
+            <!-- End of Content Wrapper -->
 
-  <?php include 'template/logout.php' ?>
+          </div>
+          <!-- End of Page Wrapper -->
 
-  <?php include 'template/imports.php' ?>
+          <!-- Scroll to Top Button-->
+          <a class='scroll-to-top rounded' href='#page-top'>
+            <i class='fas fa-angle-up'></i>
+          </a>
 
-</body>
+          <?php include 'template/logout.php' ?>
 
-</html>
+          <?php include 'template/imports.php' ?>
+
+        </body>
+
+        </html>

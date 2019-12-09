@@ -1,42 +1,17 @@
-<!DOCTYPE html>
-<html lang='en'>
-  
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
-
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
-
-      <!-- Main Content -->
-      <div id='content'>
-
-      <?php include 'template/menu-superior.php' ?>       
-
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
-
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800"></h1>
-            
-          </div>
-          <style>
-
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
- <div class='container'>
-          <form>
-<div class="panel panel-primary">
+<div class="container">
+<form action="index.php" method="post">
+   <div>
+        <fieldset>
+        
+       <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
+       
+        <div STYLE="text-align:center;">
+        <h4> Campus Acopiara </h4> </fieldset>
+           </div>
+           </div>
+  <!-- Text input-->
+<fieldset>
+<div class="panel panel-info">
     <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES SOBRE O CONGRESSO</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
@@ -220,18 +195,16 @@
     <option value="Paracuru">Campus Paracuru</option>
     <option value="Pecém">Campus Pecém</option>
     <option value="PIF">Campus Polo de Inovação Fortaleza</option>
-     <option value="Quixadá">Campus Quixadá </option>
-      <option value="Reitoria">Campus Reitoria</option>
-       <option value="Sobral">Campus Sobral</option>
-        <option value="TN">Campus Tabuleiro do Norte</option>
-         <option value="Tauá">Campus Tauá</option>
-          <option value="Tianguá">Campus Tianguá</option>
-           <option value="Ubajara">Campus Ubajara </option>
-            <option value="Umirim">Campus Umirim</option>
+    <option value="Quixadá">Campus Quixadá </option>
+    <option value="Reitoria">Campus Reitoria</option>
+    <option value="Sobral">Campus Sobral</option>
+    <option value="TN">Campus Tabuleiro do Norte</option>
+    <option value="Tauá">Campus Tauá</option>
+    <option value="Tianguá">Campus Tianguá</option>
+    <option value="Ubajara">Campus Ubajara </option>
+    <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-
-  <h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->
@@ -245,33 +218,3 @@
 </fieldset>
 </form>
 </div>
-
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <?php include 'template/rodape.php' ?>
-    
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
-
-  <?php include 'template/logout.php' ?>
-
-  <?php include 'template/imports.php' ?>
-
-</body>
-
-</html>

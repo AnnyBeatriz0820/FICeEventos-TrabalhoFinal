@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-info">
 
   <div class="container">
 
@@ -44,7 +44,7 @@
                     <div class="form-group">
                       <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email...">
                     </div>
-                    <a href="login.php" class="btn btn-primary btn-user btn-block">
+                    <a href="index.php" class="btn btn-info btn-user btn-block">
                       Redefinir senha
                     </a>
                   </form>
@@ -53,7 +53,7 @@
                     <a class="small" href="register.php">Crie a sua conta aqui!</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="login.php">Já tem uma conta? Entrar!</a>
+                    <a class="small" href="index.php">Já tem uma conta? Entrar!</a>
                   </div>
                 </div>
               </div>

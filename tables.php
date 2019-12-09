@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -17,11 +21,13 @@
 
            <!-- Page Heading -->
 
-           <h1 class="h3 mb-2 text-gray-800">Tabelas com dados do Evento</h1>
+           
+           <h1 class="h3 mb-2 text-gray-800">Tabelas com dados dos Eventos</h1>
 
           <p class="mb-4">Tabelas com dados dos Eventos</p>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
 
           <div class="card mb-3">
           <div class="card-header">
@@ -34,6 +40,31 @@
                 <?php include 'template/carrega-table.php' ?>  
               
               </table>
+
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Dados da Tabela</h6>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <div class="container">
+  <h2>Lista de Inscritos</h2>
+              
+  <table class="table table-condensed">
+    <thead>
+      <tr>
+        <th>nome</th>
+        <th>email</th>
+        <th>cpf</th>
+        <th>Curso / Evento</th>
+      </tr>
+    </thead>
+    
+              </div>
+
             </div>
           </div>
           <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
@@ -81,7 +112,6 @@
       </div>
     </div>
   </div>
-
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

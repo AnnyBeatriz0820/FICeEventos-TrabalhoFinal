@@ -1,39 +1,7 @@
-<!DOCTYPE html>
-<html lang='en'>
-  
- <?php include 'template/cabecalho.php' ?>
- <?php include 'template/menu-lateral.php' ?>
-
-    <!-- Content Wrapper -->
-    <div id='content-wrapper' class='d-flex flex-column'>
-
-      <!-- Main Content -->
-      <div id='content'>
-
-      <?php include 'template/menu-superior.php' ?>       
-
-        <!-- Begin Page Content -->
-        <div class='container-fluid'>
-
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800"></h1>
-        </div>
-         <style>
-    h11 {
-      color:red;
-  }
-  #logo {
-          width:50%;
-          height:50%;
-  }
-  .panel-heading{
-      font-size:150%;
-  }
-  </style>
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-        <div>
-        <fieldset>
+<div class="container">
+<form action="index.php" method="post">
+   <div>
+       <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
        
@@ -103,7 +71,7 @@
     </label>
     <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Discrição de Outros<h11>*</h11></span>
+      <span class="input-group-addon">Descreva Outros<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -215,51 +183,18 @@
             <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-
-  <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Informações Adicionais<h11>*</h11></label>  
-  <div class="col-md-4">
-  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
-  </div>
-</div>
+<h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer curso FIC</button>
-    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
 </fieldset>
 </form>
-          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-
-          </div>
-        <!-- /.container-fluid -->
-
-      </div>
-      <!-- End of Main Content -->
-
-      <?php include 'template/rodape.php' ?>
-    
-
-    </div>
-    <!-- End of Content Wrapper -->
-
-  </div>
-  <!-- End of Page Wrapper -->
-
-  <!-- Scroll to Top Button-->
-  <a class='scroll-to-top rounded' href='#page-top'>
-    <i class='fas fa-angle-up'></i>
-  </a>
-
-  <?php include 'template/logout.php' ?>
-
-  <?php include 'template/imports.php' ?>
-
-</body>
-
-</html>
+</div>
+         
