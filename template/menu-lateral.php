@@ -12,6 +12,7 @@ echo "
   <div class='sidebar-brand-text mx-6'>Eventos e FIC </div>
 </a>
 
+
 <!-- Divider -->
 <hr class='sidebar-divider my-0'>
 
@@ -68,14 +69,10 @@ echo "
         </a>
         <div id='collapsePages' class='collapse' aria-labelledby='headingPages' data-parent='#accordionSidebar'>
           <div class='bg-white py-2 collapse-inner rounded'>
-            <h6 class='collapse-header'>Login Screens:</h6>
-            <a class='collapse-item' href='login.php'>Login</a>
-            <a class='collapse-item' href='register.php'>Register</a>
-            <a class='collapse-item' href='forgot-password.php'>Forgot Password</a>
             <div class='collapse-divider'></div>
-            <h6 class='collapse-header'>Other Pages:</h6>
-            <a class='collapse-item' href='404.php'>404 Page</a>
-            <a class='collapse-item' href='blank.php'>Blank Page</a>
+            <h6 class='collapse-header'>Outras Páginas:</h6>
+            <a class='collapse-item' href='404.php'>404 Página</a>
+            <a class='collapse-item' href='blank.php'>Página em Branco</a>
           </div>
         </div>
       </li>

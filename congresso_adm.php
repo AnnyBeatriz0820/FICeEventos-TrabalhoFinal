@@ -1,4 +1,3 @@
-
 <div class="container">
 <form action="index.php" method="post">
    <div>
@@ -187,18 +186,16 @@
     <option value="Paracuru">Campus Paracuru</option>
     <option value="Pecém">Campus Pecém</option>
     <option value="PIF">Campus Polo de Inovação Fortaleza</option>
-     <option value="Quixadá">Campus Quixadá </option>
-      <option value="Reitoria">Campus Reitoria</option>
-       <option value="Sobral">Campus Sobral</option>
-        <option value="TN">Campus Tabuleiro do Norte</option>
-         <option value="Tauá">Campus Tauá</option>
-          <option value="Tianguá">Campus Tianguá</option>
-           <option value="Ubajara">Campus Ubajara </option>
-            <option value="Umirim">Campus Umirim</option>
+    <option value="Quixadá">Campus Quixadá </option>
+    <option value="Reitoria">Campus Reitoria</option>
+    <option value="Sobral">Campus Sobral</option>
+    <option value="TN">Campus Tabuleiro do Norte</option>
+    <option value="Tauá">Campus Tauá</option>
+    <option value="Tianguá">Campus Tianguá</option>
+    <option value="Ubajara">Campus Ubajara </option>
+    <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-
-  <h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->
