@@ -36,13 +36,9 @@
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
  <div class='container'>
           <form action="index.php" method="post">
-<<<<<<< HEAD
-    <div>
-=======
-   <div>
->>>>>>> master
+
         <fieldset>
-        
+       
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
        
         <div STYLE="text-align:center;">
