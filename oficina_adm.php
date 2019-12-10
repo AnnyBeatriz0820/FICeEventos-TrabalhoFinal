@@ -43,8 +43,9 @@
            </div>
   <!-- Text input-->
 <fieldset>
+  <form class="was-validated">
 <div class="panel panel-primary">
-    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA a OFICINA</I></h2></div>
+    <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA A OFICINA</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>
 <div class="form-group">
@@ -119,7 +120,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação da Oficina<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -139,7 +140,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a Oficina<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail para duvidas sobre a Oficina<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -168,7 +169,7 @@
   <div>
       <div class="col-md-3">
     <div class="input-group">
-      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <span class="input-group-addon">Idéia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -230,7 +231,7 @@
   </div>
 
   <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica do Professor<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Formação Acadêmica do Professor<h11>*</h11></label>  
   <div class="col-md-4">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
