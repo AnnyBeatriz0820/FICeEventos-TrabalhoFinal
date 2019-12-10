@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang='en'>
   
@@ -34,12 +35,10 @@
   }
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
-<<<<<<< HEAD
+
            <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
-=======
           <div class="container">
-         <div STYLE="background-color:GreenYellow" class="panel panel-default"><h1 STYLE="text-align:center;"><I>INSCRIÇÃO EM CURSOS FIC</I></h1></div>
->>>>>>> master
+         
  <fieldset>
  <body div class="panel-body" STYLE="background-color:beige";>
 <div>
@@ -54,7 +53,7 @@
            </div>
      <br/>
       <div>
-<form method="post" id=C.Estudante action="cadastroEstudante.php">
+<form class="was-validated" method="post" id=C.Estudante action="cadastroEstudante.php">
    <!--Curso: <select name="Curso" >
     <option value="Ingles">Ingles</option>
     <option value="Libras">Libras</option>
@@ -70,7 +69,7 @@
  <br/>-->
 CURSO/MODALIDADE: 
   <fieldset>
-  <input type="text" name="Curso" size="13" maxlength="100"  />
+  <input type="text" name="Curso" size="13" maxlength="100" required="" />
   </fieldset>
   FORMA DE INGRESSO: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp MODALIDADE DE CONCORRÊNCIA: 
    <fieldset>
@@ -90,29 +89,29 @@ CURSO/MODALIDADE:
    <br/>
   NOME: 
   <br/>
-  <fieldset> <input type="text"> </fieldset>
+  <fieldset> <input type="text" required=""> </fieldset>
     Nome Social:
    <br/>
-   <fieldset> <input type="text" name="NomeS" /> </fieldset>
+   <fieldset> <input type="text" name="NomeS" required/> </fieldset>
    Endereço  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Complemento
   <fieldset>
-  <input type="text" name="Endereço" />
-  <input type="text" name="Nº" />
-  <input type="text" name="Complemento" />
+  <input type="text" name="Endereço" required/>
+  <input type="text" name="Nº" required/>
+  <input type="text" name="Complemento" required/>
   </fieldset>
    Cidade &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Bairro  &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp CEP
   <fieldset>
-  <input type="text" name="Cidade" />
-  <input type="text" name="Bairro" />
-  <input type="text" name="CEP" />
+  <input type="text" name="Cidade" required/>
+  <input type="text" name="Bairro" required/>
+  <input type="text" name="CEP" required/>
   </fieldset>
      Sexo &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Email &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Telefone comercial  &nbsp &nbsp &nbsp &nbsp Telefone residencial &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp Telefone Celular &nbsp 
   <fieldset> 
-  <input type="text" name="Sexo" />&nbsp
-  <input type="text" name="Email"/> &nbsp
-  <input type="tel" name="TelefoneComer."/>&nbsp
-  <input type="tel" name="TelefoneRes."/>&nbsp
-  <input type="tel" name="TelefoneCel."/>
+  <input type="text" name="Sexo" required/>&nbsp
+  <input type="text" name="Email" required/> &nbsp
+  <input type="tel" name="TelefoneComer." required/>&nbsp
+  <input type="tel" name="TelefoneRes." required/>&nbsp
+  <input type="tel" name="TelefoneCel." required/>
   </fieldset>
   Nacionalidade
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -122,10 +121,10 @@ CURSO/MODALIDADE:
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
   Profissão
   <fieldset>
-  <input type="text" name="Naturalidade" />
-  <input type="text" name="Estado civil" />
-  <input type="text" name="Nº de Filho" />
-  <input type="text" name="Profissão" />
+  <input type="text" name="Naturalidade" required/>
+  <input type="text" name="Estado civil" required/>
+  <input type="text" name="Nº de Filho" required/>
+  <input type="text" name="Profissão" required/>
   </fieldset>
   Naturalidade
    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -133,23 +132,23 @@ CURSO/MODALIDADE:
    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
   Grau de Instrução  
   <fieldset>
-  <input type="text" name="Naturalidade" />
-  <input type="text" name="Raça/Cor" />
-  <input type="text" name="Grau de Instrução" />
+  <input type="text" name="Naturalidade" required/>
+  <input type="text" name="Raça/Cor" required/>
+  <input type="text" name="Grau de Instrução" required/>
   </fieldset>
   Escola onde concluiu o ensino ( ) Fundamental ( ) Médio   &nbsp &nbsp Ano de Conclusão 
   <fieldset>
-  <input type="text" name="Escola" />
+  <input type="text" name="Escola" required/>
    &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
-  <input type="text" id="numero" placeholder="0000">
+  <input type="text" id="numero" placeholder="0000" required>
    </fieldset>
    Escola onde concluiu a graduação &nbsp &nbsp Ano de Conclusão 
   <fieldset>
-  <input type="text" name="graduação" />  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="text" id="numero" placeholder="0000">
+  <input type="text" name="graduação" />  &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type="text" id="numero" placeholder="0000" required>
    </fieldset>
    Nome do curso de graduação &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp tipo de escola de origem
   <fieldset>
-  <input type="text" name="Ingresso" />&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+  <input type="text" name="Ingresso" required/>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
   <input type="radio"> Publica 
   <input type="radio"> </textarea> Privada
   </fieldset>
@@ -168,7 +167,7 @@ CURSO/MODALIDADE:
    <fieldset>
     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp
    &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp
-   <input type="CPF" id="numero" placeholder="000.000.000-00">  &nbsp &nbsp &nbsp <input type="CNS" name="Cns"/>
+   <input type="CPF" id="numero" placeholder="000.000.000-00">  &nbsp &nbsp &nbsp <input type="CNS" name="Cns" required/>
    </fieldset>
    Nº identidade
    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -178,10 +177,10 @@ CURSO/MODALIDADE:
   &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
   Data
   <fieldset>
-  <input type="text" name="Nº identidade" />
-  <input type="text" name="Estado" />
-  <input type="text" name="Orgão expedidor" />
-  <input type="text" name="Data" />
+  <input type="text" name="Nº identidade" required/>
+  <input type="text" name="Estado" required/>
+  <input type="text" name="Orgão expedidor" required/>
+  <input type="text" name="Data" required/>
   </fieldset>
   Nº Título de Eleitor
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -191,10 +190,10 @@ CURSO/MODALIDADE:
   &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
   Data
   <fieldset>
-  <input type="text" name="Título" />
-  <input type="text" name="Zona_Eleitoral" />
-  <input type="text" name="Seção_Eleitoral" />
-  <input type="text" name="Data" />
+  <input type="text" name="Título" required/>
+  <input type="text" name="Zona_Eleitoral" required/>
+  <input type="text" name="Seção_Eleitoral" required/>
+  <input type="text" name="Data" required/>
   </fieldset>
    Nº Reservista
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -204,10 +203,10 @@ CURSO/MODALIDADE:
   &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
  Ano
   <fieldset>
-  <input type="text" name="Reservista" />
-  <input type="text" name="Região" />
-  <input type="text" name="C.E.M" />
-  <input type="text" name="Ano" />
+  <input type="text" name="Reservista" required/>
+  <input type="text" name="Região" required/>
+  <input type="text" name="C.E.M" required/>
+  <input type="text" name="Ano" required/>
   </fieldset>
    Dados da família
    <br/>
@@ -215,51 +214,51 @@ CURSO/MODALIDADE:
    &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
    Nome da Mãe
    <fieldset>
-   <input type="text" name="Pai" />
+   <input type="text" name="Pai" required/>
    &nbsp&nbsp &nbsp &nbsp 
-   <input type="text" name="Mãe" />
+   <input type="text" name="Mãe" required/>
    </fieldset>
    Grau de Intrução do Pai 
    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
    Grau de Intrução da Mãe
    <fieldset>
-   <input type="text" name="G_Pai" />
+   <input type="text" name="G_Pai" required/>
     &nbsp&nbsp &nbsp &nbsp 
-   <input type="text" name="G_Mãe" />
+   <input type="text" name="G_Mãe" required/>
    </fieldset>
    Estado Civil dos Pais 
    <fieldset>
-   <input type="text" name="E.C_Pais" /> &nbsp &nbsp 
+   <input type="text" name="E.C_Pais" required/> &nbsp &nbsp 
   <INPUT TYPE="radio" NAME="ObtoPai" VALUE="Pai"> Pai Falecido 
   <INPUT TYPE="radio" NAME="ObtoMae" VALUE="Mae"> Mãe Falecida
    </fieldset>
    Endereço &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Complemento &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Bairro
    <fieldset>
-   <input type="text" name="Endereço" /> &nbsp &nbsp
-   <input type="text" name="Nº" /> &nbsp &nbsp
-   <input type="text" name="Complemento" /> &nbsp &nbsp
-   <input type="text" name="Bairro" /> &nbsp &nbsp
+   <input type="text" name="Endereço" required/> &nbsp &nbsp
+   <input type="text" name="Nº" required/> &nbsp &nbsp
+   <input type="text" name="Complemento" required/> &nbsp &nbsp
+   <input type="text" name="Bairro" required/> &nbsp &nbsp
    </fieldset>
    Cidade &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp CEP
    <fieldset>
-   <input type="text" name="Cidade" /> &nbsp &nbsp
-   <input type="CEP" id="numero" placeholder="00.000-000">
+   <input type="text" name="Cidade" required/> &nbsp &nbsp
+   <input type="CEP" id="numero" placeholder="00.000-000" required>
    </fieldset>
    Email dos Pais &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Telefone comercial  &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Telefone residencial  &nbsp &nbsp  &nbsp &nbsp &nbsp Telefone Celular  
   <fieldset>
-  <input type="text" name="Email"/> &nbsp
-  <input type="tel" name="TelefoneComer."/>&nbsp
-  <input type="tel" name="TelefoneRes."/>&nbsp
-  <input type="tel" name="TelefoneCel."/>
+  <input type="text" name="Email" required/> &nbsp
+  <input type="tel" name="TelefoneComer." required/>&nbsp
+  <input type="tel" name="TelefoneRes." required/>&nbsp
+  <input type="tel" name="TelefoneCel." required/>
   </fieldset>
   <fieldset>
       &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Nº de pessoas na família  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp&nbsp &nbsp Com quem reside
   <br/>Renda Familiar Percapita
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <input type="text" name="pessoas" /> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  <input type="text" name="quem_reside" />
+  <input type="text" name="pessoas" required/> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <input type="text" name="quem_reside" required/>
   <br/>
-   <INPUT TYPE="radio" NAME="Salario" VALUE="S"> NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+   <INPUT TYPE="radio" NAME="Salario" VALUE="S" > NPR à 0,5 SM &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
   <INPUT TYPE="radio" NAME="Salario" VALUE="S2"> 1 SM à RPC 1,5 SM &nbsp &nbsp &nbsp &nbsp 
    <INPUT TYPE="radio" NAME="Salario" VALUE="S4"> 2,5 SM à RPC 3,5 SM
    &nbsp &nbsp &nbsp &nbsp *SM = Salário Mínimo 
