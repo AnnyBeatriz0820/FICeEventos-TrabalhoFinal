@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='pt'>
   
  <?php include 'template/cabecalho.php' ?>
  <?php include 'template/menu-lateral.php' ?>
@@ -36,7 +36,7 @@
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-<form action="index.php" method="post">
+<form action="index.php" method="post" class="was-validated">
    <div>
         <fieldset>
         
@@ -61,19 +61,19 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Mini Curso<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Minicurso<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de pessoas estimadas<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidades de Pessoas Estimadas<h11>*</h11></label>  
   <div class="col-md-1">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   <fieldset>
-  <label class="col-md-1 control-label" for="Nome">Data do Mini Curso<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data do Minicurso<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="date" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
@@ -90,7 +90,7 @@
 <!-- Multiple Radios (inline) -->
  <div>
 
-  <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
+  <label class="col-md-1 control-label" for="radios">Público-Alvo <h11>*</h11></label>
   <div class="col-md-5"> 
     <label required="" class="radio-inline" for="radios-0">
       <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
@@ -124,7 +124,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação Mini Curso<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação do Minicurso<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -144,7 +144,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre o Mini curso<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail para duvidas sobre o Minicurso<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -173,7 +173,7 @@
   <div>
       <div class="col-md-3">
     <div class="input-group">
-      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <span class="input-group-addon">Idéia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -193,7 +193,7 @@
  
   </div>
 
-  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Mini Curso <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="selectbasic">Selecione o Campus que vai Realizar o Minicurso <h11>*</h11></label>
     <div class="col-md-3">
     <select required id="Mesa Redonda" name="Mesa Redonda" class="form-control">
      <option value="Acaraú">Campus Acaraú</option>
@@ -241,7 +241,7 @@
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer Mini Curso</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Oferecer Minicurso</button>
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar</button>
   </div>
 </div>
