@@ -36,7 +36,7 @@
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-<form action="index.php" method="post">
+<form action="index.php" method="post" class="was-validated">
    <div>
         <fieldset>
         
@@ -68,7 +68,7 @@
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de pessoas estimadas<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidades de Pessoas Estimadas<h11>*</h11></label>  
   <div class="col-md-1">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
@@ -77,12 +77,12 @@
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="date" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
-<label class="col-md-1 control-label" for="time">Hora de Início<h11>*</h11></label>  
+<label class="col-md-1 control-label" for="time">Horário de Início<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="time" name="time" placeholder="hh/mm" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
 </div>
 </br>
-<label class="col-md-1 control-label" for="Nome">Hora do Final<h11>*</h11></label>  
+<label class="col-md-1 control-label" for="Nome">Horário de Termino<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="time" maxlength="10" OnKeyPress="formatar('##/##', this)" onBlur="showhide()">
 </div>
@@ -90,7 +90,7 @@
 <!-- Multiple Radios (inline) -->
  <div>
 
-  <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
+  <label class="col-md-1 control-label" for="radios">Público-Alvo <h11>*</h11></label>
   <div class="col-md-5"> 
     <label required="" class="radio-inline" for="radios-0">
       <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
@@ -124,7 +124,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Mesa Redonda<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação da Mesa Redonda<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -144,7 +144,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a Mesa Redonda<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail para dúvidas sobre a Mesa Redonda<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -173,7 +173,7 @@
   <div>
       <div class="col-md-3">
     <div class="input-group">
-      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <span class="input-group-addon">Idéia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -233,8 +233,8 @@
             <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
-
-  <h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
+<br>
+  <h5><center>Inserir Convite:<input type="file" name="foto"> </h5></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->
