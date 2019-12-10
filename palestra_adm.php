@@ -64,7 +64,7 @@
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de Vagas<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidade de Vagas<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
@@ -75,7 +75,7 @@
 </div>
 
 <!-- Multiple Radios (inline) -->
-  <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
+  <label class="col-md-1 control-label" for="radios">Público-Alvo <h11>*</h11></label>
   <div class="col-md-4"> 
     <label required="" class="radio-inline" for="radios-0" >
       <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
@@ -100,14 +100,14 @@
     </label>
     <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Discrição de Outros<h11>*</h11></span>
+      <span class="input-group-addon">Descrição de Outros<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação da Palestra<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação da Palestra<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -127,7 +127,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre a palestra<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail para duvidas sobre a palestra<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -153,7 +153,7 @@
   <div>
       <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <span class="input-group-addon">Idéia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
@@ -214,7 +214,7 @@
   </div>
 
   <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica do Palestrante<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Formação Acadêmica do Palestrante<h11>*</h11></label>  
   <div class="col-md-4">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
