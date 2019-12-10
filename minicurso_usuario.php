@@ -36,14 +36,14 @@
 			<!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
 			<div class="container">
-				<form class="form-horizontal" role="form" method="POST" action="index.php">
+				<form class="form-horizontal was-validated" role="form" method="POST" action="index.php">
 
-<<<<<<< HEAD
+
 						<b>
 							<div>
-=======
+
 					<div>
->>>>>>> master
+
         <fieldset>
         
        <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
@@ -82,7 +82,7 @@
   <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   
-  <label class="col-md-1 control-label" for="Nome">Nascimento<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data de Nascimento<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
@@ -148,7 +148,7 @@
  </div> 
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail <h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -261,7 +261,7 @@
 </div>
 </fieldset>
 </form>
-<<<<<<< HEAD
+
 					<div class="row">
 						<div class="col-md-3"></div>
 						<div class="col-md-6">
@@ -269,8 +269,7 @@
 						</div>
 					</div>
 				</form>
-=======
->>>>>>> master
+
 			</div>
 			
 			
