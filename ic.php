@@ -35,7 +35,7 @@
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 <div class='container'>
-          <form method="post" action="index.php">
+          <form method="post" action="index.php" class="was-validated">
   <div>
         <fieldset>
         
@@ -71,7 +71,7 @@
   <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   
-  <label class="col-md-1 control-label" for="Nome">Nascimento<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data de Nascimento<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
@@ -126,18 +126,10 @@
     </div>
   </div>
   
-    <label class="col-md-1 control-label" for="prependedtext">Telefone</label>
-     <div class="col-md-3">
-    <div class="input-group">
-      <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
-      OnKeyPress="formatar('## #####-####', this)">
-    </div>
-  </div>
- </div> 
+     
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail <h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -235,7 +227,7 @@
       <option value="Sociologia">Sociologia</option>
        <option value="Informatica">Informática</option>
        <option value="Artigo">Artigo Científico</option>
-      <option value="Graduação">Pós Graduação</option>
+      <option value="Graduação">Pós-Graduação</option>
        <option value="TCC">TCC</option>
     </select>
   </div>
