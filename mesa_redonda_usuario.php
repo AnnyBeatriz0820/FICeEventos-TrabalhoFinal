@@ -35,7 +35,7 @@
   </style>
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-<form action="index.php" method="post">
+<form action="index.php" method="post" class="was-validated">
     <div>
         <fieldset>
         
@@ -72,7 +72,7 @@
   <input id="cpf" name="cpf" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   
-  <label class="col-md-1 control-label" for="Nome">Nascimento<h11>*</h11></label>  
+  <label class="col-md-1 control-label" for="Nome">Data de Nascimento<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
@@ -118,7 +118,7 @@
  </div> 
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email <h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">E-mail <h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
@@ -131,14 +131,14 @@
 <!-- Prepended text-->
 
 <div class="form-group">
-<<<<<<< HEAD
+
 
   <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
     <div class="col-md-2">
-=======
+
   <label class="col-md-2 control-label" for="prependedtext">Endereço</label>
       <div class="col-md-2">
->>>>>>> master
+
     <div class="input-group">
       <span class="input-group-addon">Rua<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
@@ -232,17 +232,15 @@
   </div>
   </div>
   <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Formação Acedêmica<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Formação Acadêmica<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
-<<<<<<< HEAD
+
  <!-- Button (Double) -->
-=======
  </fieldset>
 <!-- Button (Double) -->
->>>>>>> master
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
@@ -251,10 +249,8 @@
   </div>
 </div>
 </fieldset>
-<<<<<<< HEAD
 </div>
-=======
->>>>>>> master
+
 </form>
 </div>
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
