@@ -63,7 +63,7 @@
 </div>
 <!-- Text input-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Quantidades de de pessoas que poderão participar<h11>*</h11></label>  
+  <label class="col-md-2 control-label" for="Nome">Quantidades de  pessoas que poderão participar<h11>*</h11></label>  
   <div class="col-md-2">
   <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
@@ -99,14 +99,14 @@
     </label>
     <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Discrição de Outros<h11>*</h11></span>
+      <span class="input-group-addon">Descrição de Outros<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>
   <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação do Evento<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação do Evento<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>

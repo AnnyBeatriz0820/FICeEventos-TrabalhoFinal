@@ -99,5 +99,4 @@ session_start();
   <?php include 'template/imports.php' ?>
 
 </body>
-
 </html>

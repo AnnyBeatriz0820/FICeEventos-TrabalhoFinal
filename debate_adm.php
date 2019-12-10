@@ -70,7 +70,7 @@
   <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação Debate<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação Debate<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -116,7 +116,7 @@
   <div>
       <div class="col-md-2">
     <div class="input-group">
-      <span class="input-group-addon">Ideia Central<h11>*</h11></span>
+      <span class="input-group-addon">Idéia Central<h11>*</h11></span>
       <input id="text" name="text" class="form-control" placeholder="" required=""  type="text">
     </div>
     </div>

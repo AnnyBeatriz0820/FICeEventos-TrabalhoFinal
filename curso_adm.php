@@ -106,7 +106,7 @@
   <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação do Cuso<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação do Curso<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>

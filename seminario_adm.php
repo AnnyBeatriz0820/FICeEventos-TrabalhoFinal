@@ -61,9 +61,10 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Seminário<h11>*</h11></label>  
+   <div class="col-md-4 mb-3">
+  <label class="col-md-2 control-label" for="validationServer01">Nome do Coordenador do Seminário<h11>*</h11></label>  
   <div class="col-md-8">
-  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
+  <input id="Nome" name="Nome" placeholder="" class="form-control is-valid" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
@@ -124,7 +125,7 @@
       <!-- Prepended text-->
 </div>
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Telefone da Cordenação do Seminário<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Telefone da Coordenação do Seminário<h11>*</h11></label>
   <div class="col-md-2">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
@@ -144,7 +145,7 @@
   
 <!-- Prepended text-->
 <div class="form-group">
-  <label class="col-md-2 control-label" for="prependedtext">Email para duvidas sobre o Seminário<h11>*</h11></label>
+  <label class="col-md-2 control-label" for="prependedtext">Email para dúvidas sobre o Seminário<h11>*</h11></label>
   <div class="col-md-5">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>

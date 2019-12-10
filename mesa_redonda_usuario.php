@@ -52,7 +52,7 @@
   </div>
   </div>
   <div class="form-group">
-  <label class="col-md-6 control-label" for="Nome">Formação Acedêmica<h11>*</h11></label>  
+  <label class="col-md-6 control-label" for="Nome">Formação Acadêmica<h11>*</h11></label>  
   <div class="col-md-8">
   <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
@@ -64,7 +64,7 @@
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
-    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+    <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever-se</button>
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>
