@@ -1,6 +1,6 @@
 <?php
 
-echo "
+echo " a
 <!-- Sidebar -->
 <ul class='navbar-nav bg-gradient-info sidebar sidebar-dark accordion' id='accordionSidebar'>
 
