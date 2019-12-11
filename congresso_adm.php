@@ -206,6 +206,8 @@
   <label class="col-md-2 control-label" for="Cadastrar"></label>
   <div class="col-md-8">
     <button id="Cadastrar" name="Cadastrar" class="btn btn-success" type="Submit">Inscrever</button>
+        <p></p>
+
     <button id="Cancelar" name="Cancelar" class="btn btn-danger" type="Reset">Cancelar Inscrição</button>
   </div>
 </div>

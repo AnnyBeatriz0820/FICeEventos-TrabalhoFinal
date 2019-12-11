@@ -36,6 +36,8 @@ session_start();
               <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               
                 <?php include 'template/carrega-table.php' ?>  
+                                <?php include 'template/tables_area_adm.php' ?>  
+
               
               </table>
             </div>
