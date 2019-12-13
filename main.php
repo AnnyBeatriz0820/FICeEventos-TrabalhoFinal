@@ -5,17 +5,17 @@ session_start();
 
 <?php 
   //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
-  if ($_POST[email] == "admin@admin.com" && $_POST[password] == "1234") {
-    echo "Admin-";
-    $_SESSION['email'] 	= $_POST[email];
-    $_SESSION['password'] = $_POST[password];
-    print_r($_SESSION);
+  if ($_POST['email'] == "admin@admin.com" && $_POST['password'] == "1234") {
+   
+    $_SESSION['email'] 	= $_POST['email'];
+    $_SESSION['password'] = $_POST['password'];
+ //   print_r($_SESSION);
 
   } else {
-    echo "User-";
-    $_SESSION['email'] 	= $_POST[email];
-    $_SESSION['password'] = $_POST[password];
-    print_r($_SESSION);
+   
+    $_SESSION['email'] 	= $_POST['email'];
+    $_SESSION['password'] = $_POST['password'];
+//    print_r($_SESSION);
   }
 
 ?>

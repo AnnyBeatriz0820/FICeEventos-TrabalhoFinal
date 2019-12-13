@@ -1,5 +1,6 @@
  <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
+            <?php include 'Ajuda/ajuda_mesa_redonda_usuario.php' ?>
 <form action="index.php" method="post">
  
 <div class="col-md-12">

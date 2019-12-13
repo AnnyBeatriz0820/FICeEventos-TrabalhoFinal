@@ -2,6 +2,7 @@
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
           <div class='container'>
+            <?php include 'Ajuda/ajuda_debate_usuario.php' ?>
           <form method="post" action="index.php">
 
   <label class="col-md-12 control-label" for="selectbasic">Selecione a Cidade que Quer Participar <h11>*</h11></label>

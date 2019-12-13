@@ -1,5 +1,5 @@
 <div class="container">
-
+<?php include 'Ajuda/ajuda_minicurso_usuario.php' ?>
           <form method="post" action="index.php">
 
 <div class="form-group">

@@ -1,6 +1,6 @@
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-
+<?php include 'Ajuda/ajuda_congresso_usuario.php' ?>
           <form method="post" action="index.php">
 
 

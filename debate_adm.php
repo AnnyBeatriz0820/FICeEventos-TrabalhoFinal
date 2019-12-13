@@ -2,6 +2,7 @@
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
   <form action="index.php" method="post">
+    <?php include 'Ajuda/ajuda_debate_adm.php' ?>
 <fieldset>
 <div class="panel panel-primary">
     <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O DEBATE</I></h2></div>

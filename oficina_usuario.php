@@ -1,4 +1,5 @@
 <div class='container'>
+  <?php include 'Ajuda/ajuda_oficina_usuario.php' ?>
           <form action="index.php" method="post">
 
 <div class="form-group">

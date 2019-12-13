@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html lang='en'>
-  
+  <?php include 'Ajuda/ajuda_mesa_redonda_adm.php' ?>
  <?php include 'template/cabecalho.php' ?>
  <?php include 'template/menu-lateral.php' ?>
 

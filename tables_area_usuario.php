@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-  
+  <?php include 'Ajuda/ajuda_tables_usuario.php' ?>
  <?php include 'template/cabecalho.php' ?>
  <?php include 'template/menu-lateral.php' ?>
 

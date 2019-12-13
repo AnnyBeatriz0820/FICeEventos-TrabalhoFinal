@@ -1,6 +1,6 @@
 
           <form method="post" action="index.php">
-
+<?php include 'Ajuda/ajuda_evento_usuario.php' ?>
 <div class="form-group">
     
   <label class="col-md-2 control-label" for="selectbasic">Escolher Evento<h11>*</h11></label>

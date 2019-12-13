@@ -1,4 +1,5 @@
 <div class="container">
+  <?php include 'Ajuda/ajuda_minicurso_adm.php' ?>
 <form action="index.php" method="post">
    <div>
         <fieldset>

@@ -1,6 +1,6 @@
 
           <form method="post" action="index.php">
-
+<?php include 'Ajuda/ajuda_extensao_usuario.php' ?>
 <div class="form-group">
     
   <label class="col-md-6 control-label" for="selectbasic">Selecione seu Curso de Extensão<h11>*</h11></label>

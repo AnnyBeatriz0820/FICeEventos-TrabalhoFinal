@@ -1,6 +1,6 @@
 <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
-
+<?php include 'Ajuda/ajuda_fic_usuario.php' ?>
           <form method="post" action="index.php">
 <div class="form-group">
 <div class="col-md-11 control-label">
