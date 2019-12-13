@@ -5,21 +5,15 @@ session_start();
 
 <?php 
   //ESSA VERIFICAÇAO DO IF TEM QUE SER FEITA COM OS DADOS DO BANCO
-  if ($_POST[email] == "admin@admin.com" && $_POST[password] == "1234") {
-    echo "Admin-";
-    $_SESSION['email'] 	= $_POST[email];
-    $_SESSION['password'] = $_POST[password];
   if ($_POST['email'] == "admin@admin.com" && $_POST['password'] == "1234") {
+    
     $_SESSION['email'] 	= $_POST['email'];
     $_SESSION['password'] = $_POST['password'];
-    print_r($_SESSION);
-
+    
   } else {
-    echo "User-";
-    $_SESSION['email'] 	= $_POST[email];
-    $_SESSION['password'] = $_POST[password];
+    
     $_SESSION['email'] 	= $_POST['email'];
-    $_SESSION['password'] 	= $_POST['password'];
+    $_SESSION['password'] = $_POST['password'];
     print_r($_SESSION);
   }
 
@@ -49,6 +43,10 @@ session_start();
           </div>
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+
+      
+      <li class='nav-item'>
         <a class='nav-link collapsed' href='#' data-toggle='collapse' data-target='#collapseUtilitie' aria-expanded='true' aria-controls='collapseUtilitie'>
           <i class='fas fa-fw fa-folder'></i>
          
