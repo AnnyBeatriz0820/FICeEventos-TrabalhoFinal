@@ -2,7 +2,7 @@
 $servidor="localhost";
 $usuario="root";
 $senha="";
-$baseDeDados="fic_eventos";
+$baseDeDados="siteeventosefic";
 
 $conn = new mysqli($servidor,$usuario,$senha,$baseDeDados);
 if ($conn->connect_error) {
@@ -12,3 +12,4 @@ if ($conn->connect_error) {
 
 
 ?>
+

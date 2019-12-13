@@ -19,13 +19,31 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">Pronto (a) para oferecer seu curso fic?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
+             <h2> SIGA AS INSTRUÇÕES ABAIXO:</h2>
+            </br>
+            1º Preencha o Nome do Curso;
+             </br>
+            2º Informe a quantidade de vagas;
+             </br>
+            3º Preencha a data de início do curso;
+             </br>
+            4º Preencha a data do final do curso;
+             </br>
+            5º Informe o público alvo;
+             </br>
+            6º Preencha o telefone da coordenação, do Campus e um email para dúvida;
+            </br>
+            7º Informe a programação do curso informando o Tema, a ideia central e o local e data e horário;
+             </br>
+            8º clique em Oferecer Curso Fic;
+            </br>
+            9º Caso der erro prencha os todos os campus obrigatórios e repita o 8º procedimento até obter sucesso.</p>
           </div>
  
           <!-- Rodapé do modal-->

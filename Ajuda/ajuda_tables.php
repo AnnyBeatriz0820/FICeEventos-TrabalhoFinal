@@ -19,14 +19,19 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">Presisa alterar os dados nas tabelas de seu site?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
-          </div>
+            <h2> SIGA AS INSTRUÇÕES ABAIXO:</h2>
+            </br>
+            1º Vá até a pagina tables.php e acrescente dados nas tabelas de forma manual.
+              </br>
+            2º Lembre de acresecentar condições, insert, funções e return de forma uteis para que os dados sejam apresentado de forma corretas.
+            </br>
+            3º Não esqueça de trocar a nomeclatura de sua tabela se nescessário. 
  
           <!-- Rodapé do modal-->
           <div class="modal-footer">

@@ -19,13 +19,29 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">Pronto (a) para se inscrever no curso?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
+            <h2> SIGA AS INSTRUÇÕES ABAIXO:</h2>
+            </br>
+            1º Preencha o Nome do Aluno, CPF, Data de Nascimento;
+             </br>
+            2º Marque o Sexo: feminino masculino ou outros;
+             </br>
+            3º Preencha o nome da mãe e do pai;
+              </br>
+            4º Preencha Telelfone obrigatório, telefone opcional, Email e CEP;
+             </br>
+            5º Preencha o endereço digitando o nome da rua, cidade e bairro;
+             </br>
+            6º Escolha seu estado e o tema do curso na setinha ao lado;
+             </br>
+            7º clique em Inscrever;
+             </br>
+             8º Caso der erro prencha os todos os campus obrigatórios e repita o 6º procedimento até obter sucesso.</p>
           </div>
  
           <!-- Rodapé do modal-->

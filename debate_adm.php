@@ -4,6 +4,10 @@
   <form action="index.php" method="post">
 <fieldset>
 <div class="panel panel-primary">
+  <form action="index.php" method="post" class="was-validated">
+   <div>
+        <fieldset>
+     
     <div STYLE="background-color:GreenYellow" class="panel panel-default"><h2 STYLE="text-align:center;"><I>INSERIR INFORMAÇÕES PARA O DEBATE</I></h2></div>
      
     <div class="panel-body" STYLE="background-color:beige";>

@@ -5,20 +5,18 @@ session_unset();
 // destroy the session
 session_destroy();
 
-print_r($_SESSION);
+//print_r($_SESSION);
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>IFCE Campus Acopiara</title>
 
   <!-- Custom fonts for this template-->
@@ -49,12 +47,12 @@ print_r($_SESSION);
                   <div class="text-center">
                     <h1 class="h4 text-gray-900 mb-4">Bem vindo de volta!</h1>
                   </div>
-                  <form id="loginForm" class="user" method="POST" action="main.php">
+                  <form id="loginForm" class="user was-validated" method="POST" action="main.php">
                     <div class="form-group">
-                      <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Email...">
+                      <input type="email" class="form-control form-control-user" id="email" name="email" aria-describedby="emailHelp" placeholder="Email..." required>
                     </div>
                     <div class="form-group">
-                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Senha">
+                      <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Senha" required>
                     </div>
                     <div class="form-group">
                       <div class="custom-control custom-checkbox small">

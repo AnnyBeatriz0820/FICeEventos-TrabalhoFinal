@@ -1,5 +1,7 @@
-          <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
+
+<!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
           <div class="container">
+
 
           <form method="post" action="index.php">
 
@@ -21,12 +23,10 @@
       <option value="CongressoZ">Congresso de Zootecnia</option>
       <option value="CongressoE">Congresso do Esporte</option>
       <option value="CongressoIACN">Congresso Internacional Artefatos da Cultura Negra</option>
-      <option value="CongressoSM">Congresso Internacional de Saúde Mental</option>
-      
+      <option value="CongressoSM">Congresso Internacional de Saúde Mental</option>    
     </select>
   </div>
   </div>
- 
 <!-- Button (Double) -->
 <div class="form-group">
   <label class="col-md-2 control-label" for="Cadastrar"></label>
@@ -36,8 +36,6 @@
   </div>
 </div>
 </fieldset>
-</form>
-
-          
+</form>       
 </div>
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
