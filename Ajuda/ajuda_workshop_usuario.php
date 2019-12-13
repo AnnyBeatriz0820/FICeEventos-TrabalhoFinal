@@ -19,13 +19,27 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">Pronto(a) para se inscrever no Workshop?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
+             <h2> SIGA AS INSTRUÇÕES ABAIXO:</h2>
+            </br>
+            1º Preencha o Nome do Aluno, CPF, Data de Nascimento;
+             </br>
+            2º Marque o Sexo: feminino masculino ou outros;
+             </br>
+            3º Preencha Telelfone e Email;
+             </br>
+            4º Preencha o endereço digitando o nome da rua e cidade;
+             </br>
+            5º Escolha seu estado e o tema do Workshop na setinha ao lado;
+             </br>
+            6º clique em Inscrever;
+             </br>
+            7º Caso der erro prencha os todos os campus obrigatórios e repita o 6º procedimento até obter sucesso.</p>
           </div>
  
           <!-- Rodapé do modal-->

@@ -19,13 +19,17 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">QUER SABER MAIS ?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
+            <h2> VEJA AS INSTRUÇÕES</h2>
+            </br>
+            Aqui encontra-se o relatório que você precisa contendo os dados de professores inscritos.
+            </br>
+            
           </div>
  
           <!-- Rodapé do modal-->

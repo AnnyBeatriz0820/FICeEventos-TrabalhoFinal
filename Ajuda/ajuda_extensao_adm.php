@@ -19,13 +19,29 @@
  
           <!-- Cabeçalho do modal -->
           <div class="modal-header">
-            <h4 class="modal-title">Pronto (a) para realizar sua inscrição?</h4>
+            <h4 class="modal-title">Pronto (a) para oferecer o curso de Extensão?</h4>
             <button type="button" class="close" data-dismiss="modal">&times;</button>
           </div>
  
           <!-- Corpo do modal -->
           <div class="modal-body">
-            <p>Preencha todos o campos que são 'Obrigatório', para que sua inscrição seja realizada com sucesso.</p>
+             <h2> SIGA AS INSTRUÇÕES ABAIXO:</h2>
+            </br>
+            1º Preencha o Nome do curso de extensão;
+             </br>
+            2º Informe a quantidade de vagas;
+             </br>
+            3º Preencha a data do curso de extensão;
+             </br>
+            4º Marque o público alvo que irão participarem entre adolescente, adulto, idoso e outros;
+             </br>
+            5º Preencha o telefone da coordenação, do Campus e um email para dúvida sobre o curso de extensão;
+            </br>
+            6º Informe a programação curso de extensão deixando o Tema, a ideia central, local e horário;
+             </br>
+            7º clique em Oferecer curso de extensão;
+             </br>
+            8º Caso der erro prencha todos os campus obrigatórios e repita o 7º procedimento até obter sucesso.</p>
           </div>
  
           <!-- Rodapé do modal-->
