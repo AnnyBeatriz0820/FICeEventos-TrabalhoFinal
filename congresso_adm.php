@@ -5,7 +5,9 @@
    <div>
         <fieldset>
         
-       <h1 STYLE="text-align:center;"> <IMG SRC="https://2.bp.blogspot.com/-QYgmjjRaouk/TkPusQrEGxI/AAAAAAAABIE/JlTLuECoQYc/s300/ifce.jpg"></h1> 
+       <h2 STYLE="text-align:center;font-size:80px">
+<img src="img/tela2.jpg";alt="Trulli"; width="260"; height="90"></h2>
+
        
         <div STYLE="text-align:center;">
         <h4> Campus Acopiara </h4> </fieldset>

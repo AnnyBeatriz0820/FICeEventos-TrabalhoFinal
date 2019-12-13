@@ -7,8 +7,8 @@
   </head>
   <body>
     <!-- Botão que irá abrir o modal -->
-    <div class=text-center>
-  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#meuModal">?</button>
+     <div class=text-right>
+  <button type="button" class="btn btn-success" data-toggle="modal" data-target="#meuModal">?</button>>
  </div>
     <!-- Modal -->
     <div id="meuModal" class="modal fade" role="dialog">

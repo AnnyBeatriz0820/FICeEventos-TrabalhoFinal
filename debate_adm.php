@@ -1,7 +1,8 @@
 
           <!-- PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
-  <form action="index.php" method="post">
+  <div class="container">
+ <form action="index.php" method="post">
     <?php include 'Ajuda/ajuda_debate_adm.php' ?>
 <fieldset>
 <div class="panel panel-primary">

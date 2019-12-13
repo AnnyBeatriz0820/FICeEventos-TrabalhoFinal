@@ -1,23 +1,23 @@
-
-
 <thead>
   <tr>
+    <th>id</th>
     <th>Nome</th>
     <th>E-mail</th>
-    <th>Idade</th>
-    <th>Início</th>
-    <th>Evento</th>
-    <th>Situação</th>
+    <th>CPF</th>
+    
+    
+    <th>Ação</th>
   </tr>
 </thead>
 <tfoot>
   <tr>
+    <th>id</th>
     <th>Nome</th>
     <th>E-mail</th>
-    <th>Idade</th>
-    <th>Início</th>
-    <th>Evento</th>
-    <th>Situação</th>
+    <th>CPF</th>
+   
+    
+    <th>Ação</th>
   </tr>
 </tfoot>
 <tbody>
@@ -25,89 +25,46 @@
   <?php 
 
 
-  include './funcoes/conn.php';
-
+  include 'conn.php';
 
 
   $sql = "SELECT * FROM usuario ";
 
-//  $resultado = $conn->query($sql);
+  $resultado = $conn->query($sql);
 
   if ($resultado->num_rows > 0) {
     while($linha = $resultado->fetch_assoc()) {
 
       $id             = $linha["id"];
       $nome           = $linha["nome"];
-      $data           = $linha["data_de_nascimento"];
-      $email          = $linha["email"];
-      $CPF            = $linha["cpf"];
-      $data_cadastro  = $linha["data_cadastro"];
-      $situacao       = $linha["situacao"];
-      $tipo           = $linha["tipo"];
-
-
-
-
-      $idade = calculo_idade($data);
-
-
-      if($tipo == 2){
-
+      $e_mail          = $linha["e_mail"];
+      $cpf            = $linha["cpf"];
         ?>
-
         <tr>
+          <td><?php echo $id; ?></td>
           <td><?php echo $nome; ?></td>
-          <td><?php echo $email; ?></td>
-          <td><?php echo $idade; ?></td>
-          <td><?php echo $data_cadastro; ?></td>
-          <td></td>
-          <td><?php echo $situacao; ?></td>
+          <td><?php echo $e_mail; ?></td>
+          <td><?php echo $cpf; ?></td>
+          
+          <td>
+            <a class="text-danger" href="delete.php?id=<?php echo $id; ?>">
+              <i class="material-icons">
+                delete
+              </i>
+            </a>
+
+          </td>
         </tr>
 
         <?php  
-      }
     }
   } else {  ?>
-  <tr >
-    <td colspan=6 align="center">Sem Registros no Banco ou select ERRADO!!!</td>
-  </tr>
+    <tr >
+      <td colspan=6 align="center">Sem Registros no Banco ou select ERRADO!!!</td>
+    </tr>
 
-<?php  }
-
-  function calculo_idade($data) {
-        //Data atual
-    $dia = date('d');
-    $mes = date('m');
-    $ano = date('Y');
-        //Data do aniversário
-        /*
-        $nascimento = explode('/', $data);
-        $dianasc = ($nascimento[0]);
-        $mesnasc = ($nascimento[1]);
-        $anonasc = ($nascimento[2]);
-        */
-        // se for formato do banco, use esse código em vez do de cima!
-        
-        $nascimento = explode('-', $data);
-        $dianasc = ($nascimento[2]);
-        $mesnasc = ($nascimento[1]);
-        $anonasc = ($nascimento[0]);
-        
-        //Calculando sua idade
-        $idade = $ano - $anonasc; // simples, ano- nascimento!
-        if ($mes < $mesnasc){
-          $idade--;
-          return $idade;
-        }elseif ($mes == $mesnasc && $dia <= $dianasc){
-          $idade--;
-          return $idade;
-        }else{
-          return $idade;
-        }
-      } 
-
+  <?php  }
       ?>
-
 
     </tbody>
 
