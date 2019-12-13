@@ -1,3 +1,4 @@
+
 <div class="container">
 <form action="index.php" method="post">
    <div>
@@ -24,39 +25,30 @@
 <!-- Text input-->
 
 <div class="form-group">
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationCustom01">Primeiro nome</label>
-      <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="Mark" required>
-      <div class="valid-feedback" required>
-        Tudo certo!
-      </div>
-    </div>
   <label class="col-md-2 control-label" for="Nome">Nome do Coordenador do Congresso<h11>*</h11></label>  
   <div class="col-md-8">
-  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text" required>
+  <input id="Nome" name="Nome" placeholder="" class="form-control input-md" required="" type="text">
   </div>
 </div>
 <!-- Text input-->
 <div class="form-group">
-
   <label class="col-md-2 control-label" for="Nome">Quantidades de pessoas estimadas<h11>*</h11></label>  
   <div class="col-md-1">
-  <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$" required>
+  <input id="Vagas" name="Vagas" placeholder="Apenas números" class="form-control input-md" required="" type="text" maxlength="11" pattern="[0-9]+$">
   </div>
   <fieldset>
   <label class="col-md-1 control-label" for="Nome">Data o Congresso<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()" required>
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
 <label class="col-md-1 control-label" for="Nome">Hora de Início<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()" required>
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
 </br>
 <label class="col-md-1 control-label" for="Nome">Hora do Final<h11>*</h11></label>  
   <div class="col-md-2">
-  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()" required>
+  <input id="dtnasc" name="dtnasc" placeholder="DD/MM/AAAA" class="form-control input-md" required="" type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)" onBlur="showhide()">
 </div>
 </fieldset>
 <!-- Multiple Radios (inline) -->
@@ -65,15 +57,15 @@
   <label class="col-md-1 control-label" for="radios">Público Alvo <h11>*</h11></label>
   <div class="col-md-5"> 
     <label required="" class="radio-inline" for="radios-0">
-      <input name="Crianças" id="sexo" value="Crianças" type="radio" >
+      <input name="Crianças" id="sexo" value="Crianças" type="radio" required>
       Crianças
     </label> 
     <label class="radio-inline" for="radios-1">
-      <input name="Adolescentes" id="Adolescentes" value="Crianças" type="radio"required>
+      <input name="Adolescentes" id="Adolescentes" value="Crianças" type="radio">
       Adolescentes
     </label>
      <label class="radio-inline" for="radios-1">
-      <input name="Jovens" id="Jovens" value="masculino" type="radio"required>
+      <input name="Jovens" id="Jovens" value="masculino" type="radio">
       Jovens
     </label>
     
@@ -108,7 +100,7 @@
      <div class="col-md-3">
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX"required type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="XX XXXXX-XXXX" type="text" maxlength="13"  pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
       OnKeyPress="formatar('## #####-####', this)">
     </div>
   </div>
@@ -195,16 +187,18 @@
     <option value="Paracuru">Campus Paracuru</option>
     <option value="Pecém">Campus Pecém</option>
     <option value="PIF">Campus Polo de Inovação Fortaleza</option>
-    <option value="Quixadá">Campus Quixadá </option>
-    <option value="Reitoria">Campus Reitoria</option>
-    <option value="Sobral">Campus Sobral</option>
-    <option value="TN">Campus Tabuleiro do Norte</option>
-    <option value="Tauá">Campus Tauá</option>
-    <option value="Tianguá">Campus Tianguá</option>
-    <option value="Ubajara">Campus Ubajara </option>
-    <option value="Umirim">Campus Umirim</option>
+     <option value="Quixadá">Campus Quixadá </option>
+      <option value="Reitoria">Campus Reitoria</option>
+       <option value="Sobral">Campus Sobral</option>
+        <option value="TN">Campus Tabuleiro do Norte</option>
+         <option value="Tauá">Campus Tauá</option>
+          <option value="Tianguá">Campus Tianguá</option>
+           <option value="Ubajara">Campus Ubajara </option>
+            <option value="Umirim">Campus Umirim</option>
     </select>
   </div>
+
+  <h2><center>Inserir Convite:<input type="file" name="foto"> </h2></center>
 </div>
  <fieldset>
 <!-- Button (Double) -->

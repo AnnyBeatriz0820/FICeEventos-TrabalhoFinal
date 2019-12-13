@@ -4,22 +4,17 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang='en'>
-
-<?php include 'template/cabecalho.php' ?>
-
-<body id='page-top'>
-  <!-- Page Wrapper -->
-  <div id='wrapper'>
-    
-    <?php include 'template/menu-lateral.php' ?>
+  
+ <?php include 'template/cabecalho.php' ?>
+ <?php include 'template/menu-lateral.php' ?>
 
     <!-- Content Wrapper -->
-    <div id='content-wrapper' class=''>
+    <div id='content-wrapper' class='d-flex flex-column'>
 
       <!-- Main Content -->
       <div id='content'>
 
-        <?php include 'template/menu-superior.php' ?>       
+      <?php include 'template/menu-superior.php' ?>       
 
         <!-- Begin Page Content -->
         <div class='container-fluid'>
@@ -43,26 +38,29 @@ session_start();
           <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
           </div>
-          <!-- End of Main Content -->
-
-          <?php include 'template/rodape.php' ?>
-
-
-        </div>
-        <!-- End of Content Wrapper -->
+        <!-- /.container-fluid -->
 
       </div>
-      <!-- End of Page Wrapper -->
+      <!-- End of Main Content -->
 
-      <!-- Scroll to Top Button-->
-      <a class='scroll-to-top rounded' href='#page-top'>
-        <i class='fas fa-angle-up'></i>
-      </a>
+      <?php include 'template/rodape.php' ?>
+    
 
-      <?php include 'template/logout.php' ?>
+    </div>
+    <!-- End of Content Wrapper -->
 
-      <?php include 'template/imports.php' ?>
+  </div>
+  <!-- End of Page Wrapper -->
 
-    </body>
+  <!-- Scroll to Top Button-->
+  <a class='scroll-to-top rounded' href='#page-top'>
+    <i class='fas fa-angle-up'></i>
+  </a>
 
-    </html>
+  <?php include 'template/logout.php' ?>
+
+  <?php include 'template/imports.php' ?>
+
+</body>
+
+</html>

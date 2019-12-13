@@ -4,17 +4,20 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang='en'>
+  
+ <?php include 'template/cabecalho.php' ?>
+ <?php include 'template/menu-lateral.php' ?>
 
-<?php include 'template/cabecalho.php' ?>
-<?php include 'template/menu-lateral.php' ?>
+    <!-- Content Wrapper -->
+    <div id='content-wrapper' class='d-flex flex-column'>
 
-<!-- Content Wrapper -->
-<div id='content-wrapper' class='d-flex flex-column'>
+      <!-- Main Content -->
+      <div id='content'>
 
-  <!-- Main Content -->
-  <div id='content'>
+      <?php include 'template/menu-superior.php' ?>       
 
-    <?php include 'template/menu-superior.php' ?>       
+        <!-- Begin Page Content -->
+        <div class='container-fluid'>
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
@@ -32,40 +35,32 @@ session_start();
   }
 ?>
 
-                  if ($_SESSION['email'] == "admin@admin.com" && $_SESSION['password'] == "1234") {
-                      include "congresso_adm.php";
-                    } else {
-                      include "congresso_usuario.php";
-                    }
-                  ?>
+          <!-- FIM PARTE PRINCIPAL DA PAGINA ONDE DEVE SER ADICIONADO O CONTEUDO-->
 
           </div>
         <!-- /.container-fluid -->
 
-                </div>
-                <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
 
-              </div></div>
-              <!-- End of Main Content -->
+      <?php include 'template/rodape.php' ?>
+    
 
-              <?php include 'template/rodape.php' ?>
+    </div>
+    <!-- End of Content Wrapper -->
 
+  </div>
+  <!-- End of Page Wrapper -->
 
-            </div>
-            <!-- End of Content Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class='scroll-to-top rounded' href='#page-top'>
+    <i class='fas fa-angle-up'></i>
+  </a>
 
-          </div>
-          <!-- End of Page Wrapper -->
+  <?php include 'template/logout.php' ?>
 
-          <!-- Scroll to Top Button-->
-          <a class='scroll-to-top rounded' href='#page-top'>
-            <i class='fas fa-angle-up'></i>
-          </a>
+  <?php include 'template/imports.php' ?>
 
-          <?php include 'template/logout.php' ?>
+</body>
 
-          <?php include 'template/imports.php' ?>
-
-        </body>
-
-        </html>
+</html>
